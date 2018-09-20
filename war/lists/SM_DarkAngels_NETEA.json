@@ -1,6 +1,6 @@
 {
 	"id":"Dark Angels",
-	"version":"NetEA Dark Angels 1.81",
+	"version":"NetEA Dark Angels 1.85",
 	"by":"Mrdiealot",
 "sections":[
 		{"name":"Dark Angles Core Detachments", "formations": [
@@ -11,7 +11,7 @@
             { "id":502, "name":"Scout Infiltrators", "units":"4 Space Marine Sniper Scouts",        "pts":175, "upgrades":[13,14] },
             { "id":503, "name":"Assaults", "units":"6 Assault Marines",        "pts":250, "upgrades":[13,14] },
             { "id":504, "name":"Devastators", "units":"4 Dark Angels Devastators plus Transport",        "pts":250, "upgrades":[13,14,17,19,31] },
-			{ "id":531, "name":"Predators", "units":"4 Predator Destructors", "pts":250, "upgrades":[13,14,31] },
+			{ "id":531, "name":"Predators", "units":"6 Predator Destructors", "pts":300, "upgrades":[13,14,31] },
 	        { "id":533, "name":"Siege Breachers", "units":"3 Land Raider Ares", "pts":275, "upgrades":[13,14,20] },
 			{ "id":534, "name":"Whirlwinds", "units":"4 Whirlwinds", "pts":275, "upgrades":[29] }
      ]},
@@ -26,7 +26,7 @@
 			{ "id":522, "name":"Ravenwing Auxilia",       "pts":200, "upgrades":[] }
      ]},
 	 		{"name":"Dreadwing Relic Detachments (One Relic may be taken for each 3 Core or Strike Detachments. One Relic may be taken if the army contains a Grand Master. )", "formations": [
-            { "id":535, "name":"Relic Deimos", "units":"3 Deimos Vindicator Laser Destroyers",  "pts":400, "upgrades":[] },
+            { "id":535, "name":"Relic Deimos", "units":"4 Predator Executioners, 3 Deimos Vindicator Laser Destroyers",  "pts":400, "upgrades":[] },
 		    { "id":536, "name":"Relic Fellglaive",      "pts":50, "upgrades":[34] }
      ]},
 	 		{"name":"Dark Angels Navy (Max 33%)", "formations": [
@@ -53,9 +53,7 @@
 		{"id":29, "name":"2 Hunters","pts":125},
 		{"id":30, "name":"6 Tacticals",		"pts":175},
 		{"id":31, "name":"2 Stalkers",		"pts":75},
-		{"id":32, "name":"4 Deimos Predators with Plasma Destroyers",		"pts":25},
-		{"id":33, "name":"4 Deimos Predators with Heavy Conversion Beamers",		"pts":0},
-		{"id":34, "name":"Fellglaive",		"pts":300},
+		{"id":34, "name":"Glaive",		"pts":250},
 		{"id":35, "name":"Strike Cruiser",		"pts":200},
 		{"id":36, "name":"Battle Barge",		"pts":350}
 
@@ -86,8 +84,7 @@
 	{"min":0, "max":1, "from":[29], "appliesTo":[534,535]},
 	{"min":0, "max":1, "from":[31], "appliesTo":[501,504,531]},
 	{"min":0, "max":1, "from":[30], "appliesTo":[532]},
-	{"min":1, "max":1, "from":[33,32], "appliesTo":[535]},
-	{"min":1, "max":2, "from":[34], "appliesTo":[536]},
+	{"min":1, "max":3, "from":[34], "appliesTo":[536]},
 	{"min":2, "max":3, "from":[21], "appliesTo":[542]},
 	{"min":1, "max":1, "from":[35,36], "appliesTo":[543]}
 
