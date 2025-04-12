@@ -63,7 +63,7 @@
 		{"id":500, "name": "Auxilia Lasrifle Tercio", "units":"Auxilia Command Squad",		"pts":100.01, "upgrades":[]},
 		{"id":501, "name": "Auxilia Ogryn Tercio", 	"units":"3 Charonite Ogryns",	"pts":98.01, "upgrades":[205,206,207]},
 		{"id":502, "name": "Veletarii Tercio", 	"units":"4 Veletarii",	"pts":98.01, "upgrades":[205,206,208]},
-		{"id":503, "name": "Auxilia Heavy Sentinel Tercio", "units":"4 Aethon Heavy Sentinels",		"pts":101.01, "upgrades":[]},
+		{"id":503, "name": "Auxilia Heavy Sentinel Tercio", "units":"4 Aethon Heavy Sentinels",		"pts":100.01, "upgrades":[]},
 		{"id":504, "name": "Auxilia Leman Russ Strike Tercio", 	"pts":97.01, "upgrades":[210,211]}
 		]},
 
