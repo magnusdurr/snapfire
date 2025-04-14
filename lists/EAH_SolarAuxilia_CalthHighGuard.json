@@ -68,7 +68,7 @@
 
 		{"id":10, "name":"Adjutant", 		"pts":1},
 
-		{"id":20, "name":"Tactical Legionaries - Melta","pts":1},
+		{"id":20, "name":"Tactical Legionaries","pts":1},
 		{"id":21, "name":"Support Legionaries - Plasma","pts":1},
 		{"id":22, "name":"Heavy Support Legionaries - Missile Launcher","pts":1},
 		
