@@ -94,8 +94,9 @@
 		{"id":22, "name":"Heavy Support Legionaries - Missile Launcher","pts":1},
 		{"id":23, "name":"Assault Legionaries","pts":1},
 
-		{"id":25, "name":"3 Legion Terminators","pts":0},
-		{"id":26, "name":"3 Fulmentarus Terminators","pts":1},
+		{"id":25, "name":"3 Cataphractii Terminators","pts":0},
+		{"id":26, "name":"4 Cataphractii Terminators","pts":2},
+		{"id":27, "name":"3 Fulmentarus Terminators","pts":2},
 		
 		{"id":30, "name":"Contemptor Dreadnought - Assault Cannon","pts":1},
 		{"id":31, "name":"2 Contemptor Dreadnoughts - Assault Cannon","pts":2},
@@ -108,7 +109,7 @@
 		{"id":37, "name":"Deredeo Dreadnought - Autocannon","pts":1},
 		{"id":38, "name":"Deredeo Dreadnought - Plasma","pts":1},
 
-		{"id":40, "name":"2 Legion Terminators","pts":3},
+		{"id":40, "name":"2 Cataphractii Terminators","pts":3},
 		
 		{"id":50, "name":"4 Tactical Legionaries, 2 Rhinos","pts":0},
 		{"id":51, "name":"4 Tactical Legionaries, 4 Support Rhinos - Multi-Melta","pts":2},
@@ -249,7 +250,7 @@
 
 		{"id":335, "name":"Macro-Gatling Blaster",	"pts":0},
 		{"id":336, "name":"Mori Quake Cannon",	"pts":0},
-		{"id":337, "name":"Titan Power Claw",	"pts":0},
+		{"id":337, "name":"Arioch Power Claw",	"pts":0},
 		
 		{"id":338, "name":"Volkite Destructor",	"pts":1},
 		{"id":339, "name":"Conversion Beam Extripator",	"pts":1},
@@ -290,9 +291,9 @@
 
 		{"min":4, "max":6, "from":[30,32], "appliesTo":[404]},
 
-		{"min":3, "max":6, "from":[75,76], "appliesTo":[405]},
+		{"min":3, "max":4, "from":[75,76], "appliesTo":[405]},
 
-		{"min":2, "max":4, "from":[80,81,82,83], "appliesTo":[406]},
+		{"min":2, "max":3, "from":[80,81,82,83], "appliesTo":[406]},
 
 
 		{"min":4, "max":4, "from":[90,91], "appliesTo":[420]},
@@ -314,7 +315,7 @@
 
 
 		{"min":1, "max":1, "from":[1,2,3,4], "appliesTo":[440]},
-		{"min":1, "max":1, "from":[25,26], "appliesTo":[440]},
+		{"min":1, "max":1, "from":[25,26,27], "appliesTo":[440]},
 
 		{"min":3, "max":4, "from":[35,36], "appliesTo":[441]},
 
