@@ -1,33 +1,33 @@
 {
 	"id":"<a href=\"../list-view/?content=intro\">EA-H</a> Ultramarines",
 	"version":"Alpha 1.0.Alpha <a href=\"../list-view/?content=list&race=SM&list=codexastartes\">Listview</a>",
-	"notes":["100 (Formation Points), 1 (Upgrade Points) 0.1 (Titan Points) 0.01 (Ally Points) (101.11)","Very Small Battle: 10 Formation Points, 10 Upgrade points, 2 Titan Points, 2 Ally Points (808.22)","Small Battle: 12 Formation Points, 12 Upgrade points, 3 Titan Points, 3 Ally Points (1010.33)","Normal Battle: 14 Formation Points, 14 Upgrade points, 4 Titan Points, 4 Ally Points (1212.44)", "Large Battle: 16 Formation Points, 16 Upgrade points, 5 Titan Points, 5 Ally Points (1414.55)", "Very Large Battle: 18 Formation Points, 18 Upgrade points, 6 Titan Points, 6 Ally Points (1616.66)"],
+	"notes":["100 (Formation Points), 1 (Upgrade Points) 0.1 (Titan Points) 0.01 (Ally Points) (101.11)","Very Small Battle: 8 Formation Points, 8 Upgrade points, 2 Titan Points, 2 Ally Points (808.22)","Small Battle: 10 Formation Points, 10 Upgrade points, 3 Titan Points, 3 Ally Points (1010.33)","Normal Battle: 12 Formation Points, 12 Upgrade points, 4 Titan Points, 4 Ally Points (1212.44)", "Large Battle: 14 Formation Points, 14 Upgrade points, 5 Titan Points, 5 Ally Points (1414.55)", "Very Large Battle: 16 Formation Points, 16 Upgrade points, 6 Titan Points, 6 Ally Points (1616.66)"],
 	"by":"EA-Ragnarok",
 
 	"sections":[
-		{"name":"CALTH HIGH GUARD CORE TERCIOS <br/> Must have one Section Command Tercio, and at least one Lasrifle Tercio", "formations":[
-		{"id":400, "name": "Section Command Tercio", "units":"Legate Marshal Command Squad",		"pts":100, "upgrades":[190,191, 105,106,107]},
-		{"id":401, "name": "Auxilia Lasrifle Tercio", "units":"Auxilia Command Squad",		"pts":100, "upgrades":[]},
-		{"id":402, "name": "Auxilia Ogryn Tercio", 	"units":"3 Charonite Ogryns",	"pts":99, "upgrades":[205,206,207]},
-		{"id":403, "name": "Auxilia Veletarii Tercio", 	"units":"4 Veletarii",	"pts":99, "upgrades":[205,206,208]},
-		{"id":404, "name": "Auxilia Rapier Battery",			"pts":95, "upgrades":[10]}
+		{"name":"CALTH HIGH GUARD CORE SECTION <br/> Must have one Section Command Tercio", "formations":[
+		{"id":400, "name": "Section Command Tercio", "units":"Auxilia Legate Marshal, Auxilia Command Squad",		"pts":100, "upgrades":[190,191, 105,106,107]},
+		{"id":401, "name": "Auxilia Lasrifle Tercio", "units":"Auxilia Captain, Auxilia Command Squad",		"pts":100, "upgrades":[190,191, 105,106,107]}
 		]},
-		{"name":"CALTH HIGH GUARD SPECIAL TERCIOS <br/> May only have one Special Tercio for each two Core Tercios", "formations":[
+		{"name":"CALTH HIGH GUARD SPECIAL SECTION <br/> May only have one Special Section for each two Core Sections", "formations":[
 		{"id":420, "name": "Cybernetica Tarantula Battery", 				"pts":94, "upgrades":[]},
-		{"id":421, "name": "Auxilia Leman Russ Squadron", 	"pts":97, "upgrades":[210,211,212,213,214]},
+		{"id":421, "name": "Auxilia Leman Russ Squadron", 	"pts":97, "upgrades":[150,151,152,153,154,155,156]},
 		{"id":422, "name": "Auxilia Heavy Sentinel Patrol", "units":"4 Aethon Heavy Sentinels",		"pts":100, "upgrades":[10]},
-		{"id":423, "name": "Auxilia Artillery Battery",	"pts":97,  "upgrades":[100,101]}
+		{"id":423, "name": "Auxilia Artillery Battery",	"pts":97,  "upgrades":[100,101]},
+		{"id":424, "name": "Ogryn Charonite Section", 	"units":"3 Charonite Ogryns",	"pts":99, "upgrades":[205,206,207]},
+		{"id":425, "name": "Veletaris Storm Section", 	"units":"4 Veletarii",	"pts":99, "upgrades":[205,206,208]},
+		{"id":426, "name": "Auxilia Rapier Battery",			"pts":95, "upgrades":[10]}
 		 ]},
 
-		{"name":"CALTH HIGH GUARD ELITE TERCIOS <br/> May only have one Elite Tercio for each three Core Tercios", "formations":[
+		{"name":"CALTH HIGH GUARD ELITE SECTION <br/> May only have one Elite Section for each three Core Sections", "formations":[
 		{"id":440, "name":"Heavy Malcador Squadron",			"pts":101, "upgrades":[]},
 		{"id":441, "name":"Super-Heavy Tank Squadron",			"pts":97, "upgrades":[10,110,111,112,113,114]},
 		{"id":442, "name":"Auxilia Artillery Company",	"pts":194,  "upgrades":[10,100,101]},
-		{"id":443, "name":"Auxilia Leman Russ Company", 	"pts":194, "upgrades":[10,210,211,212,213,214]},
+		{"id":443, "name":"Auxilia Leman Russ Company", 	"pts":194, "upgrades":[10,150,151,152,153,154,155,156]},
 		{"id":444, "name":"Auxilia Malcador Squadron",			"pts":101, "upgrades":[]}
 		]},
 
-		{"name":"IMPERIAL NAVY SQUADRONS <br/> May only have one Imperial Navy Squadron for each three Core or Special Tercios", "formations":[
+		{"name":"IMPERIAL NAVY SQUADRONS <br/> May only have one Imperial Navy Squadron for each three Core or Special Sections", "formations":[
 		{"id":460, "name": "Thunderbolt Squadron",   "pts":96, "upgrades":[120]},
 		{"id":462, "name": "Marauder Squadron",	"units":"2 Marauder Bombers", "pts":100, "upgrades":[]}
 		]},
@@ -40,17 +40,16 @@
 		]},
 
 		{"name":"COLLEGIA TITANICA ALLIED BANNERS", "formations":[
-		{"id":464, "name": "Warhound Scout Titan",	"pts":101.11, "upgrades":[]},
-		{"id":465, "name": "Warhound Scout Titan Pack",	"pts":102.21, "upgrades":[]},
-		{"id":466, "name": "Dire Wolf Heavy Scout Titan ",	"pts":101.11, "upgrades":[]},
+		{"id":464, "name": "Warhound Scout Titan",	"pts":100.11, "upgrades":[]},
+		{"id":465, "name": "Warhound Scout Titan Pack",	"pts":101.21, "upgrades":[]},
 		{"id":467, "name": "Reaver Battle Titan", 	"pts":200.11, "upgrades":[]},
 		{"id":468, "name": "Warlord Battle Titan", 	"pts":201.21, "upgrades":[]},
 		{"id":469, "name": "Warmaster Heavy Battle Titan", 	"pts":302.31, "upgrades":[]}
 
 		]},
 		{"name":"LEGIONES ASTARTES ALLIED DETACHMENTS <br/> The first formation selected must be a Tactical Detachment", "formations":[
-			{"id":500, "name":"Tactical Detachment",	"pts":96.01, "upgrades":[20,21,22,31,33]},
-			{"id":503, "name":"Contemptor Detachment",				"pts":96.01, "upgrades":[]},
+			{"id":500, "name":"Tactical Detachment",	"pts":100.01, "upgrades":[20,21,22,23,24]},
+			{"id":501, "name":"Land Speeder Detachment",			"pts":97.01, "upgrades":[30,31,32,33]},
 			{"id":504, "name":"Predator Detachment",				"pts":97.01, "upgrades":[]},
 			{"id":505, "name":"Sicarian Detachment",				"pts":97.01, "upgrades":[]}
 		]},
@@ -68,14 +67,16 @@
 
 		{"id":10, "name":"Adjutant", 		"pts":1},
 
-		{"id":20, "name":"Tactical Legionaries","pts":1},
-		{"id":21, "name":"Support Legionaries - Plasma","pts":1},
-		{"id":22, "name":"Heavy Support Legionaries - Missile Launcher","pts":1},
-		
-		{"id":30, "name":"Contemptor Dreadnought - Assault Cannon","pts":1},
-		{"id":31, "name":"2 Contemptor Dreadnoughts - Assault Cannon","pts":2},
-		{"id":32, "name":"Contemptor Dreadnought - Lascannon","pts":1},
-		{"id":33, "name":"2 Contemptor Dreadnoughts - Lascannon","pts":2},
+		{"id":20, "name":"4 Legion Tactical Squads","pts":0},
+		{"id":21, "name":"2 Legion Tactical Squads, 2 Legion Support Squad - Plasma","pts":1},
+		{"id":22, "name":"2 Legion Tactical Squads, 2 Heavy Support Legionaries - Missile Launcher","pts":2},
+		{"id":23, "name":"2 Legion Tactical Squads, 2 Contemptor Dreadnoughts - Assault Cannon","pts":2},
+		{"id":24, "name":"2 Legion Tactical Squads, 2 Contemptor Dreadnoughts - Lascannon","pts":2},
+
+		{"id":30, "name":"Land Speeder - Melta","pts":1},
+		{"id":31, "name":"Land Speeder - Plasma","pts":1},
+		{"id":32, "name":"Javelin Attack Speeder - Missile Launcher","pts":1},
+		{"id":33, "name":"Javelin Attack Speeder - Lascannon","pts":1},
 
 		{"id":75, "name":"Predator Annihilator","pts":1},
 		{"id":76, "name":"Predator Destructor","pts":1},
@@ -113,6 +114,14 @@
 		{"id":120, "name":"Thunderbolt Fighter","pts":1},
 		{"id":121, "name":"Avenger Fighter","pts":1},
 
+		{"id":150, "name":"Leman Russ Battle Tank",	"pts":1},
+		{"id":151, "name":"Leman Russ Vanquisher",	"pts":1},
+		{"id":152, "name":"Leman Russ Demolisher",	"pts":1},
+		{"id":153, "name":"Leman Russ Executioner",	"pts":1},
+		{"id":154, "name":"Leman Russ Annihilator",	"pts":1},
+		{"id":155, "name":"Leman Russ Exterminator","pts":1},
+		{"id":156, "name":"Leman Russ Incinerator",	"pts":1},
+
 		{"id":190, "name":"2 Cyclops Demolitor", "pts":1},
 		{"id":191, "name":"2 Cyclops Incinerator", "pts":1},
 
@@ -127,12 +136,6 @@
 		{"id":207, "name":"2 Veletarii",	"pts":1},
 		{"id":208, "name":"Charonite Ogryns",	"pts":1},
 
-		{"id":210, "name":"Leman Russ",	"pts":1},
-		{"id":211, "name":"Leman Russ Vanquisher",	"pts":1},
-		{"id":212, "name":"Leman Russ Demolisher",	"pts":1},
-		{"id":213, "name":"Leman Russ Executioner",	"pts":1},
-		{"id":214, "name":"Leman Russ Annihilator",	"pts":1},
-
 		{"id":215, "name":"Armiger Helverin",	"pts":1},
 		{"id":216, "name":"Armiger Warglaive",	"pts":1},
 
@@ -146,22 +149,24 @@
 
 		{"id":250, "name":"Inferno Gun",	"pts":0},
 		{"id":251, "name":"Vulcan Mega-Bolter",	"pts":0},
-		{"id":252, "name":"Ursus Claw",	"pts":0},
-		{"id":253, "name":"Natrix Shock Lance",	"pts":0},
-		{"id":254, "name":"Scout Shudder Missile Launcher",	"pts":0},
-		{"id":255, "name":"Scout Swarmer Missile Launcher",	"pts":0},
+		{"id":252, "name":"Scout Shudder Missile Launcher",	"pts":0},
+		{"id":253, "name":"Scout Swarmer Missile Launcher",	"pts":0},
 
 		{"id":260, "name":"Turbo-Laser",	"pts":1},
 		{"id":261, "name":"Plasma Blastgun",	"pts":1},
 		{"id":262, "name":"Incisor Melta Lance",	"pts":1},
-		{"id":263, "name":"Graviton Eradicator",	"pts":1},
-		{"id":264, "name":"Conversion Beam Dissolutor",	"pts":1},
+		{"id":263, "name":"Ursus Claw",	"pts":0},
+		{"id":264, "name":"Natrix Shock Lance",	"pts":0},
+		{"id":265, "name":"Graviton Eradicator",	"pts":1},
+		{"id":266, "name":"Conversion Beam Dissolutor",	"pts":1},
 
 		{"id":270, "name":"Turbo-Laser",	"pts":2},
 		{"id":271, "name":"Plasma Blastgun",	"pts":2},
 		{"id":272, "name":"Incisor Melta Lance",	"pts":2},
-		{"id":273, "name":"Graviton Eradicator",	"pts":2},
-		{"id":274, "name":"Conversion Beam Dissolutor",	"pts":2},
+		{"id":273, "name":"Ursus Claw",	"pts":0},
+		{"id":274, "name":"Natrix Shock Lance",	"pts":0},
+		{"id":275, "name":"Graviton Eradicator",	"pts":2},
+		{"id":276, "name":"Conversion Beam Dissolutor",	"pts":2},
 
 
 		{"id":300, "name":"Titan Neutron Laser",	"pts":0},
@@ -215,11 +220,10 @@
 	],
 	"formationConstraints":[
 		{"min":1, "max":1, "name":"Section Command Tercio", "from":[400]}, 
-		{"min":1, "name":"Auxilia Lasrifle Tercio", "from":[401]},
-        {"max":0.5, "name":"Special Tercio", "from":[420,421,422,423], "forEach":[400,401,402,403,404], "name2":"Two Core Tercios"},
-		{"max":0.34, "name":"Elite Tercio", "from":[440,441,442,443,444], "forEach":[400,401,402,403,404], "name2":"Three Core Tercios"},
-		{"max":0.34, "name":"Navy Squadrons", "from":[460,461,462,463], "forEach":[400,401,402,403,404,405,406,420,421,422,423,424,425,426,427], "name2":"Three Core and Special Tercios"},
-		{"max":10, "name":"Legiones Astartes Allied Detachment", "from":[503,504,505], "forEach":[500], "name2":"Tactical Detachment, must include at least one"}
+        {"max":0.5, "name":"Special Section", "from":[420,421,422,423,424,425], "forEach":[400,401], "name2":"Two Core Sections"},
+		{"max":0.34, "name":"Elite Section", "from":[440,441,442,443,444], "forEach":[400,401], "name2":"Three Core Sections"},
+		{"max":0.34, "name":"Navy Squadrons", "from":[460,461,462,463], "forEach":[400,401,420,421,422,423,424,425,426], "name2":"Three Core and Special Sections"},
+		{"max":10, "name":"Legiones Astartes Allied Detachment", "from":[504,505], "forEach":[500], "name2":"Tactical Detachment, must include at least one"}
 	],
 	"upgradeConstraints":[
 
@@ -229,27 +233,27 @@
 		{"min":0, "max":1, "from":[190,191], "appliesTo":[400,401]},
 		{"min":0, "max":1, "from":[105,106,107], "appliesTo":[400,401]},
 
-		{"min":0, "max":1, "from":[205,206,207], "appliesTo":[402]},
 
-		{"min":0, "max":1, "from":[205,206,208], "appliesTo":[403]},
-
-		{"min":4, "max":4, "from":[90,91,92], "appliesTo":[404]},
-
-		
 		{"min":4, "max":4, "from":[95,96], "appliesTo":[420]},
 
-		{"min":3, "max":4, "from":[210,211,212,213,214], "appliesTo":[421]},
+		{"min":3, "max":4, "from":[150,151,152,153,154,155,156], "appliesTo":[421]},
 
 		{"min":3, "max":4, "from":[100,101], "appliesTo":[423]},
+
+		{"min":0, "max":1, "from":[205,206,207], "appliesTo":[424]},
+
+		{"min":0, "max":1, "from":[205,206,208], "appliesTo":[425]},
+
+		{"min":4, "max":4, "from":[90,91,92], "appliesTo":[426]},
 
 
 		{"min":1, "max":1, "from":[108,109], "appliesTo":[440]},
 
 		{"min":1, "max":2, "from":[110,111,112,113,114], "appliesTo":[441]},
 
-		{"min":6, "max":8, "from":[100,101], "appliesTo":[442]},
+		{"min":8, "max":8, "from":[100,101], "appliesTo":[442]},
 
-		{"min":6, "max":8, "from":[210,211,212,213,214], "appliesTo":[443]},
+		{"min":8, "max":8, "from":[150,151,152,153,154,155,156], "appliesTo":[443]},
 
 		{"min":1, "max":1, "from":[102,103,104], "appliesTo":[444]},
 
@@ -260,11 +264,9 @@
 
 
 		{"min":1, "max":1, "from":[1,2,3,4], "appliesTo":[500]},
-		{"min":4, "max":6, "from":[20], "appliesTo":[500]},
-		{"min":0, "max":2, "from":[21,22], "appliesTo":[500]},
-		{"min":0, "max":1, "from":[31,33,40], "appliesTo":[500]},
+		{"min":1, "max":1, "from":[20,21,22,23,24], "appliesTo":[500]},
 
-		{"min":4, "max":4, "from":[30,32], "appliesTo":[503]},
+		{"min":3, "max":4, "from":[30,31,32,33], "appliesTo":[501]},
 
 		{"min":3, "max":3, "from":[75,76], "appliesTo":[504]},
 
@@ -277,23 +279,19 @@
 		{"min":0, "max":1, "from":[225], "appliesTo":[521]},
 
 
-		{"min":2, "max":2, "from":[250,251,252,253,254,255,260,261,262,263,264], "appliesTo":[464]},
-		{"min":0, "max":1, "from":[250], "appliesTo":[464]},
-		{"min":0, "max":1, "from":[251], "appliesTo":[464]},
-		{"min":0, "max":1, "from":[252], "appliesTo":[464]},
-		{"min":0, "max":1, "from":[253], "appliesTo":[464]},
-		{"min":0, "max":1, "from":[254], "appliesTo":[464]},
-		{"min":0, "max":1, "from":[255], "appliesTo":[464]},
-		{"min":0, "max":1, "from":[260,261,262,263,264], "appliesTo":[464]},
+		{"min":2, "max":2, "from":[250,251,252,253, 260,261,262,263,264,265,266], "appliesTo":[464]},
+		{"min":0, "max":2, "from":[250], "appliesTo":[464]},
+		{"min":0, "max":2, "from":[251], "appliesTo":[464]},
+		{"min":0, "max":2, "from":[252], "appliesTo":[464]},
+		{"min":0, "max":2, "from":[253], "appliesTo":[464]},
+		{"min":0, "max":1, "from":[260,261,262,263,264,265,266], "appliesTo":[464]},
 
-		{"min":2, "max":2, "from":[250,251,252,253,254,255,270,271,272,273,274], "appliesTo":[465]},
-		{"min":0, "max":1, "from":[250], "appliesTo":[465]},
-		{"min":0, "max":1, "from":[251], "appliesTo":[465]},
-		{"min":0, "max":1, "from":[252], "appliesTo":[465]},
-		{"min":0, "max":1, "from":[253], "appliesTo":[465]},
-		{"min":0, "max":1, "from":[254], "appliesTo":[465]},
-		{"min":0, "max":1, "from":[255], "appliesTo":[465]},
-		{"min":0, "max":1, "from":[270,271,272,273,274], "appliesTo":[465]},
+		{"min":2, "max":2, "from":[250,251,252,253, 270,271,272,273,274,275,276], "appliesTo":[465]},
+		{"min":0, "max":2, "from":[250], "appliesTo":[465]},
+		{"min":0, "max":2, "from":[251], "appliesTo":[465]},
+		{"min":0, "max":2, "from":[252], "appliesTo":[465]},
+		{"min":0, "max":2, "from":[253], "appliesTo":[465]},
+		{"min":0, "max":1, "from":[270,271,272,273,274,275,276], "appliesTo":[465]},
 
 		{"min":1, "max":1, "from":[300,301,302], "appliesTo":[466]},
 
