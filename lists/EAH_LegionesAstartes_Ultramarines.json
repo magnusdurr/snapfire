@@ -52,8 +52,7 @@
 		{"id":465, "name": "Warhound Scout Titan Pack",	"pts":101.21, "upgrades":[]},
 		{"id":466, "name": "Dire Wolf Heavy Scout Titan ",	"pts":101.11, "upgrades":[]},
 		{"id":467, "name": "Reaver Battle Titan", 	"pts":200.11, "upgrades":[]},
-		{"id":468, "name": "Warlord Battle Titan", 	"pts":201.21, "upgrades":[]},
-		{"id":469, "name": "Warmaster Heavy Battle Titan", 	"pts":302.31, "upgrades":[]}
+		{"id":468, "name": "Warlord Battle Titan", 	"pts":201.21, "upgrades":[]}
 
 		]},
 
@@ -187,16 +186,16 @@
 		{"id":260, "name":"Turbo-Laser",	"pts":1},
 		{"id":261, "name":"Plasma Blastgun",	"pts":1},
 		{"id":262, "name":"Incisor Melta Lance",	"pts":1},
-		{"id":263, "name":"Ursus Claw",	"pts":0},
-		{"id":264, "name":"Natrix Shock Lance",	"pts":0},
+		{"id":263, "name":"Ursus Claw",	"pts":1},
+		{"id":264, "name":"Natrix Shock Lance",	"pts":1},
 		{"id":265, "name":"Graviton Eradicator",	"pts":1},
 		{"id":266, "name":"Conversion Beam Dissolutor",	"pts":1},
 
 		{"id":270, "name":"Turbo-Laser",	"pts":2},
 		{"id":271, "name":"Plasma Blastgun",	"pts":2},
 		{"id":272, "name":"Incisor Melta Lance",	"pts":2},
-		{"id":273, "name":"Ursus Claw",	"pts":0},
-		{"id":274, "name":"Natrix Shock Lance",	"pts":0},
+		{"id":273, "name":"Ursus Claw",	"pts":1},
+		{"id":274, "name":"Natrix Shock Lance",	"pts":1},
 		{"id":275, "name":"Graviton Eradicator",	"pts":2},
 		{"id":276, "name":"Conversion Beam Dissolutor",	"pts":2},
 
@@ -284,6 +283,7 @@
 		{"min":2, "max":3, "from":[80,81,82,83], "appliesTo":[429]},
 
 		{"min":1, "max":1, "from":[60,61,62], "appliesTo":[430]},
+		{"min":1, "max":1, "from":[1,2,3,4], "appliesTo":[430]},
 		{"min":1, "max":1, "from":[13,14,15,16,17,18], "appliesTo":[430]},
 
 
@@ -301,7 +301,7 @@
 
 		{"min":2, "max":2, "from":[120,121], "appliesTo":[445]},
 
-		{"min":0, "max":2, "from":[30,31], "appliesTo":[445]},
+		{"min":0, "max":2, "from":[30,31], "appliesTo":[446]},
 
 		{"min":0, "max":1, "from":[13,14,15,16,17,18,32,33], "appliesTo":[447]},
 
@@ -310,7 +310,7 @@
 
 		{"min":1, "max":1, "from":[165,166], "appliesTo":[461]},
 
-		{"min":1, "max":1, "from":[151,151,152], "appliesTo":[462]},
+		{"min":1, "max":1, "from":[150,151,152], "appliesTo":[462]},
 
 
 		{"min":1, "max":1, "from":[200,201,202,203,204], "appliesTo":[500]},
