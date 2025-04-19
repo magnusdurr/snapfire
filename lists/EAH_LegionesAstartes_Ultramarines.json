@@ -1,7 +1,7 @@
 {
-	"id":"<a href=\"../list-view/?content=intro\">EA-H</a> Ultramarines",
+	"id":"<a href=\"../list-view/?content=intro\">EA-H</a> Legiones Astartes, Ultramarines",
 	"version":"Alpha 1.1.Alpha <a href=\"../list-view/?content=list&race=SM&list=codexastartes\">Listview</a>",
-	"notes":["100 (Formation Points), 1 (Upgrade Points) 0.1 (Titan Points) 0.01 (Ally Points) (101.11)","Very Small Battle: 8 Formation Points, 8 Upgrade points, 2 Titan Points, 2 Ally Points (808.22)","Small Battle: 10 Formation Points, 10 Upgrade points, 3 Titan Points, 3 Ally Points (1010.33)","Normal Battle: 12 Formation Points, 12 Upgrade points, 4 Titan Points, 4 Ally Points (1212.44)", "Large Battle: 14 Formation Points, 14 Upgrade points, 5 Titan Points, 5 Ally Points (1414.55)", "Very Large Battle: 16 Formation Points, 16 Upgrade points, 6 Titan Points, 6 Ally Points (1616.66)"],
+	"notes":["100 (Formation Points), 1 (Upgrade Points) 0.1 (Titan Points) 0.01 (Ally Points) (101.11)","Very Small Battle: 8 Formation Points, 10 Upgrade points, 2 Titan Points, 2 Ally Points (808.22)","Small Battle: 10 Formation Points, 12 Upgrade points, 3 Titan Points, 3 Ally Points (1010.33)","Normal Battle: 12 Formation Points, 14 Upgrade points, 4 Titan Points, 4 Ally Points (1212.44)", "Large Battle: 14 Formation Points, 16 Upgrade points, 5 Titan Points, 5 Ally Points (1414.55)", "Very Large Battle: 16 Formation Points, 18 Upgrade points, 6 Titan Points, 6 Ally Points (1616.66)"],
 	"by":"EA-Ragnarok",
 
 	"sections":[
@@ -10,8 +10,8 @@
 			{"id":401, "name":"Mechanized Tactical Detachment",		"units":"4 Legion Tactical Squads",		"pts":100, "upgrades":[]}
 		]},
 		{"name":"ULTRAMARINES SPECIAL DETACHMENTS <br/> May have one Special Detachment for each Core Detachment", "formations":[
-		{"id":420, "name":"Rapier Detachment",			"pts":95, "upgrades":[30,31]},
-		{"id":421, "name":"Tarantula Maniple", 				"pts":94, "upgrades":[]},
+		{"id":420, "name":"Rapier Detachment",			"pts":99, "upgrades":[30,31]},
+		{"id":421, "name":"Tarantula Maniple", 				"pts":93, "upgrades":[]},
 		{"id":422, "name":"Land Raider Detachment", 					"pts":96, "upgrades":[115]},
 		{"id":423, "name":"Assault Detachment",		"units":"4 Legion Assault Squads",		"pts":100, "upgrades":[]},
 		{"id":424, "name":"Land Speeder Detachment",			"pts":97, "upgrades":[99,100,101,102]},
@@ -74,7 +74,7 @@
 		{"id":2, "name":"Captain",		"pts":1},
 		{"id":3, "name":"Chaplain", 		"pts":1},
 		{"id":4, "name":"Librarian - Thaumaturgy", 		"pts":1},
-		{"id":5, "name":"Praetor",	"pts":0},
+		{"id":5, "name":"Praetor",	"pts":2},
 		
 		{"id":13, "name":"2 Rhinos","pts":0},
 		{"id":14, "name":"2 Support Rhinos Havoc","pts":1},
@@ -119,8 +119,8 @@
 		{"id":82, "name":"Sicarian Punisher","pts":1},
 		{"id":83, "name":"Sicarian Arcus","pts":1},
 
-		{"id":90, "name":"Rapier - Laser Destructor","pts":1},
-		{"id":91, "name":"Rapier - Quad Launcher","pts":1},
+		{"id":90, "name":"4 Legion Rapier Laser Destructors","pts":0},
+		{"id":91, "name":"4 Legion Rapier Quad Launchers","pts":1},
 
 		{"id":95, "name":"Tarantula - Lascannon","pts":1},
 		{"id":96, "name":"Tarantula - Hyperios","pts":1},
@@ -201,8 +201,8 @@
 
 
 		{"id":300, "name":"Titan Neutron Laser",	"pts":0},
-		{"id":301, "name":"Conversion Beam Dissipator",	"pts":0},
-		{"id":302, "name":"Vulcano Cannon",	"pts":1},
+		{"id":301, "name":"Conversion Beam Dissipator",	"pts":1},
+		{"id":302, "name":"Vulcano Cannon",	"pts":2},
 
 		{"id":310, "name":"Turbo-Laser Destructor",	"pts":0},
 		{"id":311, "name":"Vulcan Mega-Bolter",	"pts":0},
@@ -264,7 +264,7 @@
 		{"min":1, "max":1, "from":[13,14,15,16,17,18], "appliesTo":[401]},
 
 
-		{"min":4, "max":4, "from":[90,91], "appliesTo":[420]},
+		{"min":1, "max":1, "from":[90,91], "appliesTo":[420]},
 		{"min":0, "max":2, "from":[30,31], "appliesTo":[420]},
 
 		{"min":4, "max":4, "from":[95,96], "appliesTo":[421]},
@@ -328,18 +328,20 @@
 		{"min":0, "max":1, "from":[225], "appliesTo":[521]},
 
 
-		{"min":2, "max":2, "from":[250,251,252,253, 260,261,262,263,264,265,266], "appliesTo":[464]},
-		{"min":0, "max":2, "from":[250], "appliesTo":[464]},
-		{"min":0, "max":2, "from":[251], "appliesTo":[464]},
-		{"min":0, "max":2, "from":[252], "appliesTo":[464]},
-		{"min":0, "max":2, "from":[253], "appliesTo":[464]},
+		{"min":1, "from":[250,251,252,253, 260,261,262,263,264,265,266], "appliesTo":[464]},
+		{"min":1, "from":[251,250,252,253, 260,261,262,263,264,265,266], "appliesTo":[464]},
+		{"min":0, "max":1, "from":[250], "appliesTo":[464]},
+		{"min":0, "max":1, "from":[251], "appliesTo":[464]},
+		{"min":0, "max":1, "from":[252], "appliesTo":[464]},
+		{"min":0, "max":1, "from":[253], "appliesTo":[464]},
 		{"min":0, "max":1, "from":[260,261,262,263,264,265,266], "appliesTo":[464]},
 
-		{"min":2, "max":2, "from":[250,251,252,253, 270,271,272,273,274,275,276], "appliesTo":[465]},
-		{"min":0, "max":2, "from":[250], "appliesTo":[465]},
-		{"min":0, "max":2, "from":[251], "appliesTo":[465]},
-		{"min":0, "max":2, "from":[252], "appliesTo":[465]},
-		{"min":0, "max":2, "from":[253], "appliesTo":[465]},
+		{"min":1, "from":[250,251,252,253, 270,271,272,273,274,275,276], "appliesTo":[465]},
+		{"min":1, "from":[251,250,252,253, 270,271,272,273,274,275,276], "appliesTo":[465]},
+		{"min":0, "max":1, "from":[250], "appliesTo":[465]},
+		{"min":0, "max":1, "from":[251], "appliesTo":[465]},
+		{"min":0, "max":1, "from":[252], "appliesTo":[465]},
+		{"min":0, "max":1, "from":[253], "appliesTo":[465]},
 		{"min":0, "max":1, "from":[270,271,272,273,274,275,276], "appliesTo":[465]},
 
 		{"min":1, "max":1, "from":[300,301,302], "appliesTo":[466]},
