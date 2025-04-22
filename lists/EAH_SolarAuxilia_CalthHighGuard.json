@@ -55,7 +55,7 @@
 		]},
 
 		{"name":"QUESTORIS FAMILIA ALLIED LANCES", "formations":[
-		{"id":520, "name": "Armiger Lance", 	"pts":96.01, "upgrades":[]},
+		{"id":520, "name": "Armiger Lance", 	"pts":97.01, "upgrades":[]},
 		{"id":521, "name": "Questoris Lance", 		"pts":100.01, "upgrades":[225]}
 		]}
 	],
@@ -138,6 +138,8 @@
 
 		{"id":215, "name":"Armiger Helverin",	"pts":1},
 		{"id":216, "name":"Armiger Warglaive",	"pts":1},
+		{"id":217, "name":"Armiger Moirax (Lightning Locks)",	"pts":2},
+		{"id":218, "name":"Armiger Moirax (Volkite, Gyges)",	"pts":2},
 
 		{"id":220, "name":"2 Questoris Knight-Paladins",	"pts":0},
 		{"id":221, "name":"2 Questoris Knight-Errants",	"pts":0},
@@ -273,7 +275,7 @@
 		{"min":2, "max":2, "from":[80,81], "appliesTo":[505]},
 
 
-		{"min":3, "max":3, "from":[215,216], "appliesTo":[520]},
+		{"min":3, "max":3, "from":[215,216,217,218], "appliesTo":[520]},
 
 		{"min":1, "max":1, "from":[220,221,222,223,224], "appliesTo":[521]},
 		{"min":0, "max":1, "from":[225], "appliesTo":[521]},
