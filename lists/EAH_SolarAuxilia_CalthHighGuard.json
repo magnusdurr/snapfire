@@ -6,7 +6,7 @@
 
 	"sections":[
 		{"name":"CALTH HIGH GUARD CORE SECTION <br/> Must have a Section Command Tercio", "formations":[
-		{"id":400, "name": "Section Command Tercio", "units":"Auxilia Legate Marshal, Auxilia Command Squad",		"pts":101, "upgrades":[190,191, 105,106,107,102,103,104]},
+		{"id":400, "name": "Section Command Tercio", "units":"Auxilia Legate Marshal, Auxilia Command Squad",		"pts":102, "upgrades":[190,191, 105,106,107,102,103,104]},
 		{"id":401, "name": "Auxilia Lasrifle Tercio", "units":"Auxilia Captain, Auxilia Command Squad",		"pts":100, "upgrades":[190,191, 105,106,107]}
 		]},
 		{"name":"CALTH HIGH GUARD SPECIAL SECTION <br/> May have one Special Section for each Core Section", "formations":[
@@ -70,8 +70,8 @@
 		{"id":20, "name":"4 Legion Tactical Squads","pts":0},
 		{"id":21, "name":"2 Legion Tactical Squads, 2 Legion Support Squad - Plasma","pts":1},
 		{"id":22, "name":"2 Legion Tactical Squads, 2 Heavy Support Legionaries - Missile Launcher","pts":2},
-		{"id":23, "name":"2 Legion Tactical Squads, 2 Contemptor Dreadnoughts - Assault Cannon","pts":2},
-		{"id":24, "name":"2 Legion Tactical Squads, 2 Contemptor Dreadnoughts - Lascannon","pts":2},
+		{"id":23, "name":"2 Legion Tactical Squads, 2 Contemptor Dreadnoughts - Assault","pts":2},
+		{"id":24, "name":"2 Legion Tactical Squads, 2 Contemptor Dreadnoughts - Gravis","pts":2},
 
 		{"id":30, "name":"Land Speeder - Melta","pts":1},
 		{"id":31, "name":"Land Speeder - Plasma","pts":1},
