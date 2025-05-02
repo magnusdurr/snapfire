@@ -42,9 +42,9 @@
 		{"name":"COLLEGIA TITANICA ALLIED BANNERS", "formations":[
 		{"id":464, "name": "Warhound Scout Titan",	"pts":100.11, "upgrades":[]},
 		{"id":465, "name": "Warhound Scout Titan Pack",	"pts":101.21, "upgrades":[]},
-		{"id":467, "name": "Reaver Battle Titan", 	"pts":200.11, "upgrades":[]},
-		{"id":468, "name": "Warlord Battle Titan", 	"pts":201.21, "upgrades":[]},
-		{"id":469, "name": "Warmaster Heavy Battle Titan", 	"pts":302.31, "upgrades":[]}
+		{"id":467, "name": "Reaver Battle Titan", 	"pts":200.11, "upgrades":[240]},
+		{"id":468, "name": "Warlord Battle Titan", 	"pts":201.21, "upgrades":[240]},
+		{"id":469, "name": "Warmaster Heavy Battle Titan", 	"pts":302.31, "upgrades":[240]}
 
 		]},
 		{"name":"LEGIONES ASTARTES ALLIED DETACHMENTS <br/> The first formation selected must be a Tactical Detachment", "formations":[
@@ -148,6 +148,7 @@
 		{"id":224, "name":"2 Questoris Knight-Gallants",	"pts":0},
 		{"id":225, "name":"2 Questoris Rocket Pods",	"pts":1},
 
+		{"id":240, "name":"Veteran Princeps",	"pts":2},
 
 		{"id":250, "name":"Inferno Gun",	"pts":0},
 		{"id":251, "name":"Vulcan Mega-Bolter",	"pts":0},
@@ -297,6 +298,8 @@
 		{"min":0, "max":1, "from":[270,271,272,273,274,275,276], "appliesTo":[465]},
 
 		{"min":1, "max":1, "from":[300,301,302], "appliesTo":[466]},
+
+		{"min":0, "max":1, "from":[240], "appliesTo":[467,468,469]},
 
 		{"min":1, "max":1, "from":[310,311,312,313,314,315,316], "appliesTo":[467]},
 		{"min":2, "max":2, "from":[317,318,319,320,321,322], "appliesTo":[467]},
