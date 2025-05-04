@@ -26,13 +26,16 @@
 		{"id":440, "name":"Terminator Detachment",	"pts":101,  "upgrades":[]},
 		{"id":441, "name":"Leviathan Detachment",			"pts":97, "upgrades":[35,36,30,31]},
 		{"id":442, "name":"Deredeo Detachment",			"pts":97, "upgrades":[37,38,30,31]},
-		{"id":444, "name":"Spartan Detachment",			"pts":97, "upgrades":[]},
+		{"id":444, "name":"Locutarus Storm Detachment",	 "units":"Lieutenant, 4 Locutarus Storm Squads",		"pts":102, "upgrades":[]},
 		{"id":445, "name":"Kratos Detachment",			"pts":95, "upgrades":[]},
 		{"id":446, "name":"Fellblade Detachment",	"units":"Fellblade Super-Heavy Tank",		"pts":101, "upgrades":[]},
 		{"id":447, "name":"Nemesis Destroyer Detachment",	"units":"Lieutenant, 4 Nemesis Destroyer Squads",		"pts":101, "upgrades":[13,14,15,16,17,18,32,33]},
-		{"id":448, "name":"Sabre Detachment",			"pts":96, "upgrades":[130,131]}
+		{"id":448, "name":"Sabre Detachment",			"pts":96, "upgrades":[130,131]},
+		{"id":449, "name":"Primarch Detachment",	"units":"Roboute Guilliman, Primarch of the Ultramarines, 3 Invictarus Suzerain Squads",		"pts":104, "upgrades":[25,26,27,16,17,18]}
 
 		]},
+
+		 
 
 		{"name":"ULTRAMARINES NAVY DETACHMENTS <br/> May have one Navy Detachment for each two Core or Special Detachments", "formations":[
 		{"id":460, "name": "Xiphon Interceptors",   "pts":94, "upgrades":[160]},
@@ -43,10 +46,10 @@
 
 		{"name":"ULTRAMARINES OFFBOARD SUPPORT ASSETS", "formations":[
 		{"id":480, "name": "Drop Pods", "pts":2, "upgrades":[]},
-		{"id":481, "name": "Orbital Pin-Point Attack", "pts":2, "upgrades":[]},
-		{"id":482, "name": "Orbital Barrage", "pts":2, "upgrades":[]},
-		{"id":483, "name": "Artillery Barrage Strike",	"pts":2, "upgrades":[]},
-		{"id":484, "name": "Artillery Blind Strike", "pts":1, "upgrades":[]}
+		{"id":481, "name": "Orbital Pin-Point Attack", "pts":1, "upgrades":[]},
+		{"id":482, "name": "Orbital Barrage", "pts":1, "upgrades":[]},
+		{"id":483, "name": "Artillery Barrage Strike",	"pts":1, "upgrades":[]},
+		{"id":484, "name": "2x Artillery Blind Strike", "pts":1, "upgrades":[]}
 		]},
 
 		{"name":"COLLEGIA TITANICA ALLIED BANNERS", "formations":[
@@ -262,8 +265,11 @@
 		{"id":355, "name":"2x Plasma Blastgun",	"pts":0}
 	],
 	"formationConstraints":[
+		{"max":1, "name":"Locutarus Storm Detachment", "from":[444]},
+		{"max":1, "name":"Nemesis Destroyer Detachment", "from":[447]},
+		{"max":1, "name":"Primarch Detachment", "from":[449]},
         {"max":1, "name":"Special Detachments", "from":[420,421,422,423,424,425,426,427,428,429,430], "forEach":[400,401], "name2":"Core Detachment"},
-		{"max":0.5, "name":"Elite Detachments", "from":[440,441,442,443,444,445,446,447,448], "forEach":[400,401,420,421,422,423,424,425,426,427,428,429,430], "name2":"Two Core or Special Detachments"},
+		{"max":0.5, "name":"Elite Detachments", "from":[440,441,442,443,444,445,446,447,448,449], "forEach":[400,401,420,421,422,423,424,425,426,427,428,429,430], "name2":"Two Core or Special Detachments"},
 		{"max":0.5, "name":"Navy Detachments", "from":[460,461,462,463], "forEach":[400,401,420,421,422,423,424,425,426,427,428,429,430], "name2":"Two Core or Special Detachments"},
 		{"max":10, "name":"Solar Auxilia Allied Tercio", "from":[501,502,503,504], "forEach":[500], "name2":"Auxilia Lasrifle Tercio, must include at least one"}
 	],
@@ -310,8 +316,6 @@
 
 		{"min":1, "max":1, "from":[130,131,132], "appliesTo":[443]},
 
-		{"min":2, "max":2, "from":[112,113], "appliesTo":[444]},
-
 		{"min":2, "max":2, "from":[120,121], "appliesTo":[445]},
 
 		{"min":0, "max":2, "from":[30,31], "appliesTo":[446]},
@@ -319,6 +323,8 @@
 		{"min":0, "max":1, "from":[13,14,15,16,17,18,32,33], "appliesTo":[447]},
 
 		{"min":3, "max":6, "from":[130,131], "appliesTo":[448]},
+
+		{"min":0, "max":1, "from":[25,26,27,16,17,18], "appliesTo":[449]},
 
 
 		{"min":2, "max":3, "from":[160], "appliesTo":[460]},

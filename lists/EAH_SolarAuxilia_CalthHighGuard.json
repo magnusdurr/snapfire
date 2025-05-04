@@ -32,11 +32,12 @@
 		{"id":462, "name": "Marauder Squadron",	"units":"2 Marauder Bombers", "pts":100, "upgrades":[]}
 		]},
 
-		{"name":"SOLAR AUXILIA OFFBOARD SUPPORT ASSETS", "formations":[
-		{"id":480, "name": "Deathstrike Warp Missile Attack", "pts":2, "upgrades":[]},
-		{"id":482, "name": "Deathstrike Plasma Missile Attack", "pts":2, "upgrades":[]},
-		{"id":483, "name": "Artillery Barrage Strike",	"pts":2, "upgrades":[]},
-		{"id":484, "name": "Termite Subterranean Assault", "pts":2, "upgrades":[]}
+		{"name":"CALTH HIGH GUARD OFFBOARD SUPPORT ASSETS", "formations":[
+		{"id":480, "name": "Deathstrike Warp Missile Attack", "pts":1, "upgrades":[]},
+		{"id":482, "name": "Deathstrike Plasma Missile Attack", "pts":1, "upgrades":[]},
+		{"id":483, "name": "Artillery Barrage Strike",	"pts":1, "upgrades":[]},
+		{"id":484, "name": "Termite Subterranean Assault", "pts":2, "upgrades":[]},
+		{"id":485, "name": "2x Artillery Blind Strike", "pts":1, "upgrades":[]}
 		]},
 
 		{"name":"COLLEGIA TITANICA ALLIED BANNERS", "formations":[
