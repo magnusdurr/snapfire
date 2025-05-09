@@ -6,32 +6,32 @@
 
 	"sections":[
 		{"name":"ULTRAMARINES CORE DETACHMENTS", "formations":[
-			{"id":400, "name":"Tactical Detachment",	"pts":100, "upgrades":[25,26,27]},
+			{"id":400, "name":"Tactical Detachment",	"pts":100, "upgrades":[24,25,26,27]},
 			{"id":401, "name":"Mechanized Tactical Detachment",		"units":"4 Legion Tactical Squads",		"pts":100, "upgrades":[]}
 		]},
 		{"name":"ULTRAMARINES SPECIAL DETACHMENTS <br/> May have one Special Detachment for each Core Detachment", "formations":[
-		{"id":420, "name":"Rapier Detachment",			"pts":99, "upgrades":[30,31]},
+		{"id":420, "name":"Rapier Detachment",			"pts":99, "upgrades":[29,30,31]},
 		{"id":421, "name":"Tarantula Maniple", 				"pts":93, "upgrades":[]},
 		{"id":422, "name":"Land Raider Detachment", 					"pts":96, "upgrades":[115]},
 		{"id":423, "name":"Assault Detachment",		"units":"4 Legion Assault Squads",		"pts":100, "upgrades":[]},
 		{"id":424, "name":"Land Speeder Detachment",			"pts":97, "upgrades":[99,100,101,102]},
-		{"id":426, "name":"Scimitar Detachment",	"units":"Lieutenant, 3 Scimitar Jetbikes",	"pts":100, "upgrades":[]},
+		{"id":426, "name":"Sky-Hunter Detachment",	"units":"Lieutenant, 3 Sky-Hunter Squadrons",	"pts":100, "upgrades":[]},
 		{"id":427, "name":"Outrider Detachment",	"units":"Lieutenant, 4 Legion Outriders",	"pts":100, "upgrades":[]},
-		{"id":428, "name":"Predator Detachment",				"pts":97, "upgrades":[75,76]},
+		{"id":428, "name":"Predator Detachment",				"pts":97, "upgrades":[75,76,77]},
 		{"id":429, "name":"Sicarian Detachment",				"pts":97, "upgrades":[80,81,82,83]},
 		{"id":430, "name":"Mechanized Support Detachment",		"pts":101, "upgrades":[]}
 		 ]},
 
 		{"name":"ULTRAMARINES ELITE DETACHMENTS <br/> May have one Elite Detachment for each two Core or Special Detachments", "formations":[
 		{"id":440, "name":"Terminator Detachment",	"pts":101,  "upgrades":[]},
-		{"id":441, "name":"Leviathan Detachment",			"pts":97, "upgrades":[35,36,30,31]},
-		{"id":442, "name":"Deredeo Detachment",			"pts":97, "upgrades":[37,38,30,31]},
+		{"id":441, "name":"Leviathan Detachment",			"pts":97, "upgrades":[35,36]},
+		{"id":442, "name":"Deredeo Detachment",			"pts":97, "upgrades":[37,38]},
 		{"id":444, "name":"Locutarus Storm Detachment",	 "units":"Lieutenant, 4 Locutarus Storm Squads",		"pts":102, "upgrades":[]},
 		{"id":445, "name":"Kratos Detachment",			"pts":95, "upgrades":[]},
-		{"id":446, "name":"Fellblade Detachment",	"units":"Fellblade Super-Heavy Tank",		"pts":101, "upgrades":[]},
-		{"id":447, "name":"Nemesis Destroyer Detachment",	"units":"Lieutenant, 4 Nemesis Destroyer Squads",		"pts":101, "upgrades":[13,14,15,16,17,18,32,33]},
+		{"id":446, "name":"Fellblade Detachment",	"units":"Fellblade Super-Heavy Tank",		"pts":100.1, "upgrades":[]},
+		{"id":447, "name":"Nemesis Destroyer Detachment",	"units":"Lieutenant, 4 Nemesis Destroyer Squads",		"pts":101, "upgrades":[13,14,15,16,17,18,32,33,34]},
 		{"id":448, "name":"Sabre Detachment",			"pts":96, "upgrades":[130,131]},
-		{"id":449, "name":"Primarch Detachment",	"units":"Roboute Guilliman, Primarch of the Ultramarines, 3 Invictarus Suzerain Squads",		"pts":104, "upgrades":[25,26,27,16,17,18]}
+		{"id":449, "name":"Primarch Detachment",	"units":"Roboute Guilliman, Master of Ultramar, 3 Invictarus Suzerain Squads",		"pts":104, "upgrades":[24,25,26,27,16,17,18]}
 
 		]},
 
@@ -65,7 +65,7 @@
 		{"id":500, "name": "Auxilia Lasrifle Tercio", "units":"Auxilia Captain, Auxilia Command Squad",		"pts":100.01, "upgrades":[]},
 		{"id":501, "name": "Ogryn Charonite Section", 	"units":"3 Charonite Ogryns",	"pts":99.01, "upgrades":[205,206,207]},
 		{"id":502, "name": "Veletaris Storm Section", 	"units":"4 Veletarii",	"pts":99.01, "upgrades":[205,206,208]},
-		{"id":503, "name": "Auxilia Heavy Sentinel Patrol", "units":"4 Aethon Heavy Sentinels",		"pts":100.01, "upgrades":[]},
+		{"id":503, "name": "Auxilia Heavy Sentinel Patrol", "pts":101.01, "upgrades":[]},
 		{"id":504, "name": "Auxilia Leman Russ Squadron", 	"pts":97.01, "upgrades":[210,211,212,213]}
 		]},
 
@@ -85,22 +85,24 @@
 		{"id":14, "name":"2 Support Rhinos Havoc","pts":1},
 		{"id":15, "name":"2 Support Rhinos Melta","pts":1},
 		{"id":16, "name":"2 Land Raiders","pts":3},
-		{"id":17, "name":"Spartan - Gravis","pts":3},
+		{"id":17, "name":"Spartan - Lascannon","pts":3},
 		{"id":18, "name":"Spartan - Destroyer","pts":3},
 
 		{"id":20, "name":"4 Legion Tactical Squads","pts":0},
 		{"id":21, "name":"2 Legion Tactical Squads, 2 Legion Support Squads - Plasma","pts":1},
 		{"id":22, "name":"2 Legion Tactical Squads, 2 Legion Heavy Support Squads - Missile Launcher","pts":2},
 
+		{"id":24, "name":"2 Contemptor Dreadnoughts - Autocannon","pts":2},
 		{"id":25, "name":"2 Contemptor Dreadnoughts - Assault","pts":2},
-		{"id":26, "name":"2 Contemptor Dreadnoughts - Gravis","pts":2},
+		{"id":26, "name":"2 Contemptor Dreadnoughts - Lascannon","pts":2},
 		{"id":27, "name":"2 Cataphractii Terminator Squads","pts":3},
 
-		
+		{"id":29, "name":"Contemptor Dreadnought - Autocannon","pts":1},
 		{"id":30, "name":"Contemptor Dreadnought - Assault","pts":1},
-		{"id":31, "name":"Contemptor Dreadnought - Gravis","pts":1},
+		{"id":31, "name":"Contemptor Dreadnought - Lascannon","pts":1},
 		{"id":32, "name":"2 Contemptor Dreadnoughts - Assault","pts":1},
-		{"id":33, "name":"2 Contemptor Dreadnoughts - Gravis","pts":1},
+		{"id":33, "name":"2 Contemptor Dreadnoughts - Lascannon","pts":1},
+		{"id":34, "name":"2 Contemptor Dreadnoughts - Autocannon","pts":1},
 
 		{"id":35, "name":"Leviathan Dreadnought - Melta","pts":1},
 		{"id":36, "name":"Leviathan Dreadnought - Storm","pts":1},
@@ -118,6 +120,7 @@
 	
 		{"id":75, "name":"Predator Annihilator","pts":1},
 		{"id":76, "name":"Predator Destructor","pts":1},
+		{"id":77, "name":"Predator Gravitor","pts":1},
 
 		{"id":80, "name":"Sicarian Accelerator","pts":1},
 		{"id":81, "name":"Sicarian Omega","pts":1},
@@ -129,6 +132,7 @@
 
 		{"id":95, "name":"Tarantula - Lascannon","pts":1},
 		{"id":96, "name":"Tarantula - Hyperios","pts":1},
+		{"id":97, "name":"Tarantula - Bolter","pts":1},
 
 		{"id":99, "name":"Proteus Land Speeder - Melta","pts":1},
 		{"id":100, "name":"Proteus Land Speeder - Plasma","pts":1},
@@ -138,7 +142,7 @@
 		{"id":103, "name":"Scimitar Jetbike","pts":1},
 		{"id":104, "name":"Legion Outriders","pts":1},
 
-		{"id":112, "name":"Spartan - Gravis","pts":2},
+		{"id":112, "name":"Spartan - Lascannon","pts":2},
 		{"id":113, "name":"Spartan - Destroyer","pts":2},
 
 		{"id":115, "name":"Land Raider","pts":2},
@@ -158,6 +162,10 @@
 
 		{"id":165, "name":"Thunderhawk Gunship - Battle Cannon",		"pts":4},
 		{"id":166, "name":"Thunderhawk Gunship - Turbo-Laser",		"pts":4},
+
+		{"id":190, "name":"4 Aethon Heavy Sentinel - Multi-Laser","pts":0},
+		{"id":191, "name":"4 Aethon Heavy Sentinel - Flamer","pts":0},
+		{"id":192, "name":"4 Aethon Heavy Sentinel - Autocannon","pts":0},
 		
 		{"id":200, "name":"4 Auxilia Lasrifle Squads, Auxilia Flamer Squad", "pts":0},
 		{"id":201, "name":"6 Auxilia Lasrifle Squads, Auxilia Flamer Squad", "pts":1},
@@ -278,15 +286,15 @@
 
 		{"min":1, "max":1, "from":[1,2,3,4,5], "appliesTo":[400,401]},
 		{"min":1, "max":1, "from":[20,21,22], "appliesTo":[400]},
-		{"min":0, "max":1, "from":[25,26,27], "appliesTo":[400]},
+		{"min":0, "max":1, "from":[24,25,26,27], "appliesTo":[400]},
 
 		{"min":1, "max":1, "from":[13,14,15,16,17,18], "appliesTo":[401]},
 
 
 		{"min":1, "max":1, "from":[90,91], "appliesTo":[420]},
-		{"min":0, "max":2, "from":[30,31], "appliesTo":[420]},
+		{"min":0, "max":2, "from":[29,30,31], "appliesTo":[420]},
 
-		{"min":4, "max":4, "from":[95,96], "appliesTo":[421]},
+		{"min":4, "max":4, "from":[95,96,97], "appliesTo":[421]},
 
 		{"min":2, "max":3, "from":[115], "appliesTo":[422]},
 
@@ -297,7 +305,7 @@
 
 		{"min":3, "max":4, "from":[102], "appliesTo":[425]},
 
-		{"min":3, "max":4, "from":[75,76], "appliesTo":[428]},
+		{"min":3, "max":4, "from":[75,76,77], "appliesTo":[428]},
 
 		{"min":2, "max":3, "from":[80,81,82,83], "appliesTo":[429]},
 
@@ -312,19 +320,18 @@
 		{"min":3, "max":4, "from":[35,36], "appliesTo":[441]},
 
 		{"min":3, "max":4, "from":[37,38], "appliesTo":[442]},
-		{"min":0, "max":2, "from":[30,31], "appliesTo":[441,442]},
 
 		{"min":1, "max":1, "from":[130,131,132], "appliesTo":[443]},
 
 		{"min":2, "max":2, "from":[120,121], "appliesTo":[445]},
 
-		{"min":0, "max":2, "from":[30,31], "appliesTo":[446]},
+		{"min":0, "max":2, "from":[29,30,31], "appliesTo":[446]},
 
-		{"min":0, "max":1, "from":[13,14,15,16,17,18,32,33], "appliesTo":[447]},
+		{"min":0, "max":1, "from":[13,14,15,16,17,18,32,33,34], "appliesTo":[447]},
 
 		{"min":3, "max":6, "from":[130,131], "appliesTo":[448]},
 
-		{"min":0, "max":1, "from":[25,26,27,16,17,18], "appliesTo":[449]},
+		{"min":0, "max":1, "from":[24,25,26,27,16,17,18], "appliesTo":[449]},
 
 
 		{"min":2, "max":3, "from":[160], "appliesTo":[460]},
@@ -339,6 +346,8 @@
 		{"min":0, "max":1, "from":[205,206,207], "appliesTo":[501]},
 
 		{"min":0, "max":1, "from":[205,206,208], "appliesTo":[502]},
+
+		{"min":1, "max":1, "from":[190,191,192], "appliesTo":[503]},
 
 		{"min":3, "max":4, "from":[210,211,212,213], "appliesTo":[504]},
 
