@@ -108,8 +108,6 @@
 		{"id":37, "name":"Deredeo Dreadnought - Anvilus","pts":1},
 		{"id":38, "name":"Deredeo Dreadnought - Hellfire","pts":1},
 
-		{"id":39, "name":"1 Tactical Squad, 3 Legion Veteran Squads","pts":1},
-
 		{"id":40, "name":"4 Legion Tactical Squads","pts":0},
 		{"id":41, "name":"2 Legion Tactical Squads, 2 Legion Support Squads - Plasma","pts":1},
 		{"id":42, "name":"2 Legion Tactical Squads, 2 Legion Heavy Support Squads - Missile Launcher","pts":2},
@@ -297,7 +295,7 @@
 		{"max":1, "perArmy":true, "from":[39]},
 
 		{"min":1, "max":1, "from":[1,2,3,4,5], "appliesTo":[400,401]},
-		{"min":1, "max":1, "from":[40,41,42,43,44,45,39], "appliesTo":[400]},
+		{"min":1, "max":1, "from":[40,41,42,43,44,45], "appliesTo":[400]},
 		{"min":0, "max":1, "from":[24,25,26,27,43,44,45], "appliesTo":[400]},
 
 		{"min":1, "max":1, "from":[13,14,15,16,17,18], "appliesTo":[401]},

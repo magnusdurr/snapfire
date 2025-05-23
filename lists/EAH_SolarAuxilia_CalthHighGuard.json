@@ -5,7 +5,7 @@
 	"by":"EA-Ragnarok",
 
 	"sections":[
-		{"name":"CALTH HIGH GUARD CORE SECTION <br/> Must have a Section Command Tercio", "formations":[
+		{"name":"CALTH HIGH GUARD CORE SECTION <br/> Must have a Section Command Tercio, and at least one Lasrifle Tercio <br/> May not have more Malcador Companies or Light Sentinel Patrols than Command Tercios and Lasrifle Tercios", "formations":[
 		{"id":400, "name": "Section Command Tercio", "units":"Auxilia Legate Marshal, Auxilia Command Squad",		"pts":102, "upgrades":[105,106,107,118,190,191]},
 		{"id":401, "name": "Auxilia Lasrifle Tercio", "units":"Auxilia Captain, Auxilia Command Squad",		"pts":100, "upgrades":[105,106,107,118,190,191]},
 		{"id":402, "name":"Auxilia Malcador Company",	"units":"Auxilia Adjutant",		"pts":103, "upgrades":[190,191]},
@@ -31,7 +31,7 @@
 		]},
 
 		{"name":"IMPERIAL NAVY SQUADRONS <br/> May have one Imperial Navy Squadron for each two Core or Special Sections", "formations":[
-		{"id":460, "name": "Thunderbolt Squadron",   "pts":95, "upgrades":[120]},
+		{"id":460, "name": "Thunderbolt Squadron",   "pts":96, "upgrades":[120]},
 		{"id":462, "name": "Marauder Squadron",	"units":"2 Marauder Bombers", "pts":100, "upgrades":[]}
 		]},
 
@@ -48,7 +48,7 @@
 		{"id":465, "name": "Warhound Scout Titan Pack",	"pts":101.21, "upgrades":[]},
 		{"id":467, "name": "Reaver Battle Titan", 	"pts":200.21, "upgrades":[240]},
 		{"id":468, "name": "Warlord Battle Titan", 	"pts":201.31, "upgrades":[240]},
-		{"id":469, "name": "Warmaster Heavy Battle Titan", 	"pts":302.41, "upgrades":[240]}
+		{"id":469, "name": "Warmaster Heavy Battle Titan", 	"pts":302.41, "upgrades":[]}
 
 		]},
 		{"name":"LEGIONES ASTARTES ALLIED DETACHMENTS <br/> The first formation selected must be a Tactical Detachment", "formations":[
@@ -173,7 +173,7 @@
 		{"id":232, "name":"2 Questoris Icarus Autocannon",	"pts":1},
 
 
-		{"id":240, "name":"Veteran Princeps",	"pts":2},
+		{"id":240, "name":"Veteran Princeps",	"pts":1},
 
 		{"id":250, "name":"Inferno Gun",	"pts":0},
 		{"id":251, "name":"Vulcan Mega-Bolter",	"pts":0},
@@ -250,6 +250,7 @@
 	"formationConstraints":[
 	    {"min":1, "max":1, "name":"Section Command Tercio", "from":[400]},
 		{"min":1, "name":"Auxilia Lasrifle Tercio", "from":[401]},
+		{"max":1, "name":"Malcador Companies or Light Sentinel Patrols", "from":[402,403], "forEach":[400,401], "name2":"Section Command and Lasrifle Tercios"},
         {"max":1, "name":"Special Section", "from":[420,421,422,423,424,425], "forEach":[400,401,402,403], "name2":"Core Section"},
 		{"max":0.5, "name":"Elite Section", "from":[440,441,442,443,444,445], "forEach":[400,401,402,403,420,421,422,423,424,425,426], "name2":"Two Core or Special Sections"},
 		{"max":0.5, "name":"Navy Squadrons", "from":[460,462], "forEach":[400,401,402,403,420,421,422,423,424,425,426], "name2":"Two Core or Special Sections"},
@@ -260,7 +261,9 @@
 		{"min":0, "max":1, "from":[10]},
 
 	
-		{"min":1, "max":1, "from":[200,201,202,203,204,105,106,107,118,190,191], "appliesTo":[400,401]},
+		{"min":1, "max":1, "from":[200,201,202,203,204], "appliesTo":[400,401]},
+
+		{"min":0, "max":1, "from":[201,202,203,204,105,106,107,118,190,191], "appliesTo":[400,401]},
 		
 		{"min":1, "max":1, "from":[102,103,104], "appliesTo":[402]},
 
@@ -293,9 +296,7 @@
 		{"min":3, "max":3, "from":[160,161], "appliesTo":[445]},
 
 
-		{"min":2, "max":4, "from":[120], "appliesTo":[460]},
-
-		{"min":2, "max":4, "from":[121], "appliesTo":[461]},
+		{"min":2, "max":3, "from":[120], "appliesTo":[460]},
 
 
 		{"min":1, "max":1, "from":[20,21,22,23,24], "appliesTo":[500]},
@@ -331,7 +332,7 @@
 
 		{"min":1, "max":1, "from":[300,301,302], "appliesTo":[466]},
 
-		{"min":0, "max":1, "from":[240], "appliesTo":[467,468,469]},
+		{"min":0, "max":1, "from":[240], "appliesTo":[467,468]},
 
 		{"min":1, "max":1, "from":[309,310,311,312,313,314,315,316], "appliesTo":[467]},
 		{"min":2, "max":2, "from":[317,318,319,320,321,322,323], "appliesTo":[467]},
@@ -350,6 +351,8 @@
 		{"min":0, "max":1, "from":[341], "appliesTo":[468]},
 		{"min":0, "max":1, "from":[342], "appliesTo":[468]},
 		{"min":0, "max":1, "from":[338,339,340,341,342], "appliesTo":[468]},
+
+		{"min":1, "max":1, "from":[240], "appliesTo":[469]},
 
 		{"min":1, "max":1, "from":[350,351,352,353,354,355], "appliesTo":[469]}
 
