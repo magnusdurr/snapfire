@@ -19,8 +19,7 @@
 		{"id":426, "name":"Sky-Hunter Detachment",	"units":"Lieutenant, 3 Sky-Hunter Squadrons",	"pts":100, "upgrades":[]},
 		{"id":427, "name":"Outrider Detachment",	"units":"Lieutenant, 4 Legion Outriders",	"pts":100, "upgrades":[]},
 		{"id":428, "name":"Predator Detachment",				"pts":97, "upgrades":[75,76,77]},
-		{"id":429, "name":"Sicarian Detachment",				"pts":97, "upgrades":[80,81,82,83]},
-		{"id":430, "name":"Mechanized Support Detachment", "units":"Lieutenant",		"pts":101, "upgrades":[]}
+		{"id":429, "name":"Sicarian Detachment",				"pts":97, "upgrades":[80,81,82,83]}
 		 ]},
 
 		{"name":"ULTRAMARINES ELITE DETACHMENTS <br/> May have one Elite Detachment for each two Core or Special Detachments", "formations":[
@@ -55,7 +54,7 @@
 
 		{"name":"COLLEGIA TITANICA ALLIED BANNERS", "formations":[
 		{"id":464, "name": "Warhound Scout Titan",	"pts":100.11, "upgrades":[]},
-		{"id":465, "name": "Warhound Scout Titan Pack",	"pts":101.21, "upgrades":[]},
+		{"id":465, "name": "Warhound Scout Titan Pack",	"pts":102.21, "upgrades":[]},
 		{"id":466, "name": "Dire Wolf Heavy Scout Titan ",	"pts":101.11, "upgrades":[]},
 		{"id":467, "name": "Reaver Battle Titan", 	"pts":200.21, "upgrades":[240]},
 		{"id":468, "name": "Warlord Battle Titan", 	"pts":201.31, "upgrades":[240]},
@@ -69,11 +68,6 @@
 		{"id":502, "name": "Veletaris Storm Section", 	"units":"4 Veletarii",	"pts":99.01, "upgrades":[205,206,208]},
 		{"id":503, "name": "Auxilia Heavy Sentinel Patrol", "pts":101.01, "upgrades":[]},
 		{"id":504, "name": "Auxilia Leman Russ Squadron", 	"pts":97.01, "upgrades":[210,211,212,213]}
-		]},
-
-		{"name":"QUESTORIS FAMILIA ALLIED LANCES", "formations":[
-		{"id":520, "name": "Armiger Lance", 	"pts":97.01, "upgrades":[]},
-		{"id":521, "name": "Questoris Lance", 		"pts":100.01, "upgrades":[230,231,232]}
 		]}
 	],
 	"upgrades":[
@@ -98,9 +92,9 @@
 		{"id":29, "name":"Contemptor Dreadnought - Plasma","pts":1},
 		{"id":30, "name":"Contemptor Dreadnought - Assault","pts":1},
 		{"id":31, "name":"Contemptor Dreadnought - Lascannon","pts":1},
-		{"id":32, "name":"2 Contemptor Dreadnoughts - Assault","pts":1},
-		{"id":33, "name":"2 Contemptor Dreadnoughts - Lascannon","pts":1},
-		{"id":34, "name":"2 Contemptor Dreadnoughts - Plasma","pts":1},
+		{"id":32, "name":"2 Contemptor Dreadnoughts - Assault","pts":2},
+		{"id":33, "name":"2 Contemptor Dreadnoughts - Lascannon","pts":2},
+		{"id":34, "name":"2 Contemptor Dreadnoughts - Plasma","pts":2},
 
 		{"id":35, "name":"Leviathan Dreadnought - Melta","pts":1},
 		{"id":36, "name":"Leviathan Dreadnought - Storm","pts":1},
@@ -112,8 +106,10 @@
 		{"id":41, "name":"2 Legion Tactical Squads, 2 Legion Support Squads - Plasma","pts":1},
 		{"id":42, "name":"2 Legion Tactical Squads, 2 Legion Heavy Support Squads - Missile Launcher","pts":2},
 		{"id":43, "name":"6 Legion Tactical Squads","pts":2},
-		{"id":44, "name":"4 Legion Tactical Squads, 2 Legion Support Squads - Plasma","pts":3},
-		{"id":45, "name":"4 Legion Tactical Squads, 2 Legion Heavy Support Squads - Missile Launcher","pts":4},
+		{"id":44, "name":"4 Legion Tactical Squads, 2 Legion Support Squads - Plasma","pts":2},
+		{"id":45, "name":"4 Legion Tactical Squads, 2 Legion Heavy Support Squads - Missile Launcher","pts":3},
+		{"id":46, "name":"2 Legion Tactical Squads, 4 Legion Support Squads - Plasma","pts":3},
+		{"id":47, "name":"2 Legion Tactical Squads, 4 Legion Heavy Support Squads - Missile Launcher","pts":5},
 
 		{"id":50, "name":"3 Cataphractii Terminator Squads","pts":0},
 		{"id":51, "name":"4 Cataphractii Terminator Squads","pts":2},
@@ -294,8 +290,8 @@
 		{"max":1, "perArmy":true, "from":[5]},
 
 		{"min":1, "max":1, "from":[1,2,3,4,5], "appliesTo":[400,401]},
-		{"min":1, "max":1, "from":[40,41,42,43,44,45], "appliesTo":[400]},
-		{"min":0, "max":1, "from":[24,25,26,27,43,44,45], "appliesTo":[400]},
+		{"min":1, "max":1, "from":[40,41,42,43,44,45,46,47], "appliesTo":[400]},
+		{"min":0, "max":1, "from":[24,25,26,27,43,44,45,46,47], "appliesTo":[400]},
 
 		{"min":1, "max":1, "from":[13,14,15,16,17,18], "appliesTo":[401]},
 
