@@ -8,7 +8,7 @@ var Force = {
 		this.formations.each( function(x) {
 			total += x.calcPoints();
 		});
-		return total;
+		return total.toFixed(2);
 	},
 	addFormation:function(formationType, noDefaults) {
 		var formation = {
