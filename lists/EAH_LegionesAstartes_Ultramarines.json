@@ -8,7 +8,7 @@
 		{"name":"ULTRAMARINES CORE DETACHMENTS", "formations":[
 			{"id":400, "name":"Tactical Detachment",	"pts":100, "upgrades":[24,25,26,27]},
 			{"id":401, "name":"Mechanized Tactical Detachment",	 "units":"4 Legion Tactical Squads",	"pts":100, "upgrades":[]},
-			{"id":402, "name":"Veteran Detachment",	"units":"Lieutenant, 4 Veteran Squads",	"pts":102, "upgrades":[]}
+			{"id":402, "name":"Veteran Detachment",	"units":"Lieutenant, 4 Veteran Squads",	"pts":102, "upgrades":[13,14,15,16,17,18,32,33,34]}
 		]},
 		{"name":"ULTRAMARINES SPECIAL DETACHMENTS <br/> May have one Special Detachment for each Core Detachment", "formations":[
 		{"id":420, "name":"Rapier Detachment",			"pts":99, "upgrades":[29,30,31]},
@@ -44,7 +44,7 @@
 		{"id":463, "name": "Storm Eagle",			"pts":100, "upgrades":[]}
 		]},
 
-		{"name":"ULTRAMARINES OFFBOARD SUPPORT ASSETS", "formations":[
+		{"name":"ULTRAMARINES OFFBOARD SUPPORT ASSETS <br/> May have one Offboard Support Asset for each Core Detachment", "formations":[
 		{"id":480, "name": "Drop Pods", "pts":2, "upgrades":[]},
 		{"id":481, "name": "Orbital Pin-Point Attack", "pts":1, "upgrades":[]},
 		{"id":482, "name": "Orbital Barrage", "pts":1, "upgrades":[]},
@@ -112,8 +112,8 @@
 		{"id":47, "name":"2 Legion Tactical Squads, 4 Legion Heavy Support Squads - Missile Launcher","pts":5},
 
 		{"id":50, "name":"3 Cataphractii Terminator Squads","pts":0},
-		{"id":51, "name":"4 Cataphractii Terminator Squads","pts":2},
-		{"id":52, "name":"3 Fulmentarus Terminator Squads","pts":2},
+		{"id":51, "name":"3 Fulmentarus Terminator Squads","pts":1},
+		{"id":52, "name":"4 Cataphractii Terminator Squads","pts":2},
 
 		{"id":60, "name":"4 Legion Support Squads - Plasma","pts":0},
 		{"id":61, "name":"2 Legion Support Squads - Plasma, 2 Legion Heavy Support Squads - Missile Launcher","pts":1},
@@ -284,6 +284,7 @@
         {"max":1, "name":"Special Detachments", "from":[420,421,422,423,424,425,426,427,428,429,430], "forEach":[400,401,402], "name2":"Core Detachment"},
 		{"max":0.5, "name":"Elite Detachments", "from":[440,441,442,443,444,445,446,447,448,449], "forEach":[400,401,402,420,421,422,423,424,425,426,427,428,429,430], "name2":"Two Core or Special Detachments"},
 		{"max":0.5, "name":"Navy Detachments", "from":[460,461,462,463], "forEach":[400,401,402,420,421,422,423,424,425,426,427,428,429,430], "name2":"Two Core or Special Detachments"},
+		{"max":1, "name":"Offboard Support Asset", "from":[480,481,482,483,484], "forEach":[400,401,402], "name2":"Core Detachment"},
 		{"max":10, "name":"Solar Auxilia Allied Tercio", "from":[501,502,503,504], "forEach":[500], "name2":"Auxilia Lasrifle Tercio, must include at least one"}
 	],
 	"upgradeConstraints":[
@@ -295,7 +296,7 @@
 
 		{"min":1, "max":1, "from":[13,14,15,16,17,18], "appliesTo":[401]},
 
-		{"min":1, "max":1, "from":[13,14,15,16,17,18], "appliesTo":[402]},
+		{"min":0, "max":1, "from":[13,14,15,16,17,18,32,33,34], "appliesTo":[402]},
 
 
 		{"min":1, "max":1, "from":[90,91], "appliesTo":[420]},
