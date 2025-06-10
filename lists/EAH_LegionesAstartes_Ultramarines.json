@@ -1,7 +1,7 @@
 {
 	"id":"<a href=\"../list-view/?content=intro\">EA-H</a> Legiones Astartes, Ultramarines",
 	"version":"Alpha 1.1.Alpha <a href=\"../list-view/?content=list&race=SM&list=codexastartes\">Listview</a>",
-	"notes":["100 (Formation Points), 1 (Upgrade Points) 0.1 (Titan Points) 0.01 (Ally Points) (101.11)","Very Small Battle: 8 Formation Points, 10 Upgrade points, 2 Titan Points, 2 Ally Points (808.22)","Small Battle: 10 Formation Points, 12 Upgrade points, 3 Titan Points, 3 Ally Points (1010.33)","Normal Battle: 12 Formation Points, 14 Upgrade points, 4 Titan Points, 4 Ally Points (1212.44)", "Large Battle: 14 Formation Points, 16 Upgrade points, 5 Titan Points, 5 Ally Points (1414.55)", "Very Large Battle: 16 Formation Points, 18 Upgrade points, 6 Titan Points, 6 Ally Points (1616.66)"],
+	"notes":["100 (Formation Points), 1 (Upgrade Points) 0.1 (Titan Points) 0.01 (Ally Points) (101.11)","Very Small Battle: 6 Formation Points, 8 Upgrade points, 2 Titan Points, 2 Ally Points (608.22)","Small Battle: 9 Formation Points, 11 Upgrade points, 3 Titan Points, 3 Ally Points (911.33)","Normal Battle: 12 Formation Points, 14 Upgrade points, 4 Titan Points, 4 Ally Points (1214.44)", "Large Battle: 14 Formation Points, 17 Upgrade points, 5 Titan Points, 5 Ally Points (1417.55)", "Very Large Battle: 16 Formation Points, 19 Upgrade points, 6 Titan Points, 6 Ally Points (1619.66)"],
 	"by":"EA-Ragnarok",
 
 	"sections":[
@@ -31,7 +31,7 @@
 		{"id":446, "name":"Fellblade Detachment",	"units":"Fellblade Super-Heavy Tank",		"pts":100.1, "upgrades":[]},
 		{"id":447, "name":"Nemesis Destroyer Detachment",	"units":"Lieutenant, 4 Nemesis Destroyer Squads",		"pts":102, "upgrades":[13,14,15,16,17,18,32,33,34]},
 		{"id":448, "name":"Sabre Detachment",			"pts":96, "upgrades":[130,131]},
-		{"id":449, "name":"Primarch Detachment",	"units":"Roboute Guilliman, Master of Ultramar, 3 Invictarus Suzerain Squads",		"pts":104, "upgrades":[24,25,26,27,16,17,18]}
+		{"id":449, "name":"Primarch Detachment",	"units":"Roboute Guilliman, Master of Ultramar, 3 Invictarus Suzerain Squads",		"pts":103, "upgrades":[24,25,26,27,16,17,18]}
 
 		]},
 
@@ -63,9 +63,9 @@
 		]},
 
 		{"name":"SOLAR AUXILIA ALLIED SECTIONS <br/> The first formation selected must be an Auxilia Lasrifle Tercio", "formations":[
-		{"id":500, "name": "Auxilia Lasrifle Tercio", "units":"Auxilia Captain, Auxilia Command Squad",		"pts":100.01, "upgrades":[]},
-		{"id":501, "name": "Ogryn Charonite Section", 	"units":"3 Charonite Ogryns",	"pts":99.01, "upgrades":[205,206,207]},
-		{"id":502, "name": "Veletaris Storm Section", 	"units":"4 Veletarii",	"pts":99.01, "upgrades":[205,206,208]},
+		{"id":500, "name": "Auxilia Lasrifle Tercio", "units":"Auxilia Captain, Auxilia Command Squad",		"pts":99.01, "upgrades":[]},
+		{"id":501, "name": "Ogryn Charonite Section", 	"units":"3 Charonite Ogryns",	"pts":98.01, "upgrades":[205,206,207]},
+		{"id":502, "name": "Veletaris Storm Section", 	"units":"4 Veletarii",	"pts":98.01, "upgrades":[205,206,208]},
 		{"id":503, "name": "Auxilia Heavy Sentinel Patrol", "pts":101.01, "upgrades":[]},
 		{"id":504, "name": "Auxilia Leman Russ Squadron", 	"pts":97.01, "upgrades":[210,211,212,213]}
 		]}
@@ -176,7 +176,7 @@
 
 		{"id":205, "name":"2 Auxilia Lasrifle Squads",	"pts":1},
 		{"id":206, "name":"2 Auxilia Flamer Squads",	"pts":1},
-		{"id":207, "name":"2 Veletarii Squad",	"pts":1},
+		{"id":207, "name":"2 Veletarii",	"pts":1},
 		{"id":208, "name":"Charonite Ogryn Squad",	"pts":1},
 
 		{"id":210, "name":"Leman Russ Battle Tank",	"pts":1},
