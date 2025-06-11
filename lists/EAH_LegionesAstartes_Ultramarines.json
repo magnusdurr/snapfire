@@ -103,13 +103,13 @@
 		{"id":38, "name":"Deredeo Dreadnought - Hellfire","pts":1},
 
 		{"id":40, "name":"4 Legion Tactical Squads","pts":0},
-		{"id":41, "name":"2 Legion Tactical Squads, 2 Legion Support Squads - Plasma","pts":1},
-		{"id":42, "name":"2 Legion Tactical Squads, 2 Legion Heavy Support Squads - Missile Launcher","pts":2},
+		{"id":41, "name":"2 Legion Tactical Squads, 2 Legion Support Squads - Plasma","pts":0},
+		{"id":42, "name":"2 Legion Tactical Squads, 2 Legion Heavy Support Squads - Missile Launcher","pts":1},
 		{"id":43, "name":"6 Legion Tactical Squads","pts":2},
 		{"id":44, "name":"4 Legion Tactical Squads, 2 Legion Support Squads - Plasma","pts":2},
-		{"id":45, "name":"4 Legion Tactical Squads, 2 Legion Heavy Support Squads - Missile Launcher","pts":3},
-		{"id":46, "name":"2 Legion Tactical Squads, 4 Legion Support Squads - Plasma","pts":3},
-		{"id":47, "name":"2 Legion Tactical Squads, 4 Legion Heavy Support Squads - Missile Launcher","pts":5},
+		{"id":45, "name":"4 Legion Tactical Squads, 2 Legion Heavy Support Squads - Missile Launcher","pts":2},
+		{"id":46, "name":"2 Legion Tactical Squads, 4 Legion Support Squads - Plasma","pts":2},
+		{"id":47, "name":"2 Legion Tactical Squads, 4 Legion Heavy Support Squads - Missile Launcher","pts":4},
 
 		{"id":50, "name":"3 Cataphractii Terminator Squads","pts":0},
 		{"id":51, "name":"3 Fulmentarus Terminator Squads","pts":1},
