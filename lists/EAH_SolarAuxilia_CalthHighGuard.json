@@ -72,10 +72,10 @@
 		{"id":10, "name":"Adjutant", 		"pts":1},
 
 		{"id":20, "name":"4 Legion Tactical Squads","pts":0},
-		{"id":21, "name":"2 Legion Tactical Squads, 2 Legion Support Squad - Plasma","pts":1},
-		{"id":22, "name":"2 Legion Tactical Squads, 2 Heavy Support Legionaries - Missile Launcher","pts":2},
-		{"id":23, "name":"2 Legion Tactical Squads, 2 Contemptor Dreadnoughts - Assault","pts":2},
-		{"id":24, "name":"2 Legion Tactical Squads, 2 Contemptor Dreadnoughts - Gravis","pts":2},
+		{"id":21, "name":"2 Legion Tactical Squads, 2 Legion Support Squad - Plasma","pts":0},
+		{"id":22, "name":"2 Legion Tactical Squads, 2 Heavy Support Legionaries - Missile Launcher","pts":1},
+		{"id":23, "name":"2 Legion Tactical Squads, 2 Contemptor Dreadnoughts - Assault","pts":1},
+		{"id":24, "name":"2 Legion Tactical Squads, 2 Contemptor Dreadnoughts - Gravis","pts":1},
 
 		{"id":30, "name":"Land Speeder - Melta","pts":1},
 		{"id":31, "name":"Land Speeder - Plasma","pts":1},
@@ -102,9 +102,9 @@
 		{"id":103, "name":"3 Malcador Annihilators","pts":0},
 		{"id":104, "name":"3 Malcador Vanquishers","pts":0},
 
-		{"id":105, "name":"Malcador Defender","pts":2},
-		{"id":106, "name":"Malcador Annihilator","pts":2},
-		{"id":107, "name":"Malcador Vanquisher","pts":2},
+		{"id":105, "name":"Malcador Defender","pts":1},
+		{"id":106, "name":"Malcador Annihilator","pts":1},
+		{"id":107, "name":"Malcador Vanquisher","pts":1},
 
 		{"id":108, "name":"2 Heavy Malcador Infernus","pts":0},
 		{"id":109, "name":"2 Heavy Malcador Valdors","pts":0},
@@ -265,7 +265,7 @@
 	    {"min":1, "max":1, "name":"Section Command Tercio", "from":[400]},
 		{"min":1, "name":"Auxilia Lasrifle Tercio", "from":[401]},
 		{"max":1, "name":"Malcador Companies or Light Sentinel Patrols", "from":[402,403], "forEach":[400,401], "name2":"Section Command and Lasrifle Tercios"},
-        {"max":1, "name":"Special Section", "from":[420,421,422,423,424,425], "forEach":[400,401,402,403], "name2":"Core Section"},
+        {"max":1, "name":"Special Section", "from":[420,421,422,423,424,425,426], "forEach":[400,401,402,403], "name2":"Core Section"},
 		{"max":0.5, "name":"Elite Section", "from":[440,441,442,443,444,445,446], "forEach":[400,401,402,403,420,421,422,423,424,425,426], "name2":"Two Core or Special Sections"},
 		{"max":0.5, "name":"Navy Squadrons", "from":[460,462], "forEach":[400,401,402,403,420,421,422,423,424,425,426], "name2":"Two Core or Special Sections"},
 		{"max":1, "name":"Offboard Support Asset", "from":[480,481,482,483,484], "forEach":[400,401,402,403], "name2":"Core Section"},
