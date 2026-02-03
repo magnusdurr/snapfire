@@ -5,7 +5,7 @@
 	"by":"EA-Ragnarok",
 
 	"sections":[
-		{"name":"CALTH HIGH GUARD CORE SECTIONS <br/> Must have a Section Command Tercio, and at least one Lasrifle Tercio <br/> May not have more Malcador Companies or Light Sentinel Patrols than Command Tercios and Lasrifle Tercios", "formations":[
+		{"name":"CALTH HIGH GUARD CORE SECTIONS <br/> Must have a Section Command Tercio <br/> May not have more Malcador Companies or Light Sentinel Patrols than Command Tercios and Lasrifle Tercios", "formations":[
 		{"id":400, "name": "Section Command Tercio", "units":"Auxilia Legate Marshal, Auxilia Command Squad",		"pts":101, "upgrades":[105,106,107,119,190,191]},
 		{"id":401, "name": "Auxilia Lasrifle Tercio", "units":"Auxilia Captain, Auxilia Command Squad",		"pts":99, "upgrades":[105,106,107,119,190,191]},
 		{"id":402, "name": "Auxilia Malcador Company",	"units":"Auxilia Adjutant",		"pts":103, "upgrades":[190,191]},
@@ -153,16 +153,17 @@
 		{"id":190, "name":"2 Cyclops Demolitor", "pts":1},
 		{"id":191, "name":"2 Cyclops Incinerator", "pts":1},
 
-		{"id":195, "name":"Auxilia Lasrifle Squad", "pts":0},
-		{"id":196, "name":"Auxilia Flamer Squad", "pts":0},
+		{"id":195, "name":"3 Auxilia Lasrifle Squads", "pts":0},
+		{"id":196, "name":"3 Auxilia Flamer Squads", "pts":0},
 
 		
-		{"id":199, "name":"4 Auxilia Lasrifle Squads, Auxilia Flamer Squad", "pts":0},
-		{"id":200, "name":"6 Auxilia Lasrifle Squads, Auxilia Flamer Squad", "pts":1},
-		{"id":201, "name":"4 Auxilia Lasrifle Squads, 3 Auxilia Flamer Squads", "pts":1},
-		{"id":202, "name":"4 Auxilia Lasrifle Squads, Auxilia Flamer Squad, 2 Veletarii",	"pts":1},
-		{"id":203, "name":"4 Auxilia Lasrifle Squads, Auxilia Flamer Squad, Charonite Ogryns",	"pts":1},
-		{"id":204, "name":"8 Auxilia Lasrifle Squads, Auxilia Flamer Squad", "pts":0},
+		{"id":198, "name":"4 Auxilia Lasrifle Squads, Auxilia Flamer Squad", "pts":0},
+		{"id":199, "name":"6 Auxilia Lasrifle Squads, Auxilia Flamer Squad", "pts":1},
+		{"id":200, "name":"4 Auxilia Lasrifle Squads, 3 Auxilia Flamer Squads", "pts":1},
+		{"id":201, "name":"4 Auxilia Lasrifle Squads, Auxilia Flamer Squad, 2 Veletarii",	"pts":1},
+		{"id":202, "name":"4 Auxilia Lasrifle Squads, Auxilia Flamer Squad, Charonite Ogryns",	"pts":1},
+		{"id":203, "name":"8 Auxilia Lasrifle Squads, Auxilia Flamer Squad", "pts":2},
+		{"id":204, "name":"4 Auxilia Lasrifle Squads, 5 Auxilia Flamer Squads", "pts":2},
 
 		{"id":205, "name":"2 Auxilia Lasrifle Squads",	"pts":1},
 		{"id":206, "name":"2 Auxilia Flamer Squads",	"pts":1},
@@ -263,7 +264,6 @@
 	],
 	"formationConstraints":[
 	    {"min":1, "max":1, "name":"Section Command Tercio", "from":[400]},
-		{"min":1, "name":"Auxilia Lasrifle Tercio", "from":[401]},
 		{"max":1, "name":"Malcador Companies or Light Sentinel Patrols", "from":[402,403], "forEach":[400,401], "name2":"Section Command and Lasrifle Tercios"},
         {"max":1, "name":"Special Section", "from":[420,421,422,423,424,425,426], "forEach":[400,401,402,403], "name2":"Core Section"},
 		{"max":0.5, "name":"Elite Section", "from":[440,441,442,443,444,445,446], "forEach":[400,401,402,403,420,421,422,423,424,425,426], "name2":"Two Core or Special Sections"},
@@ -276,7 +276,7 @@
 		{"min":0, "max":1, "from":[10]},
 
 	
-		{"min":1, "max":1, "from":[199,200,201,202,203,204], "appliesTo":[400,401]},
+		{"min":1, "max":1, "from":[198,199,200,201,202,203,204], "appliesTo":[400,401]},
 
 		{"min":0, "max":1, "from":[200,201,202,203,204,105,106,107,119,190,191], "appliesTo":[400,401]},
 		
@@ -308,11 +308,9 @@
 
 		{"min":1, "max":1, "from":[140,141,142], "appliesTo":[444]},
 
-		{"min":3, "max":3, "from":[160,161], "appliesTo":[445]},
-
-		{"min":1, "max":1, "from":[116,117], "appliesTo":[446]},
-		{"min":3, "max":3, "from":[195,196], "appliesTo":[446]},
-		{"min":0, "max":1, "from":[190,191], "appliesTo":[446]},
+		{"min":1, "max":1, "from":[116,117], "appliesTo":[445]},
+		{"min":1, "max":1, "from":[195,196], "appliesTo":[445]},
+		{"min":0, "max":1, "from":[190,191], "appliesTo":[445]},
 
 
 		{"min":2, "max":3, "from":[120], "appliesTo":[460]},
