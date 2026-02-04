@@ -1,7 +1,7 @@
 {
 	"id":"<a href=\"../list-view/?content=intro\">EA-H</a> Legiones Astartes, Ultramarines",
-	"version":"Alpha 1.1.Alpha <a href=\"../list-view/?content=list&race=SM&list=codexastartes\">Listview</a>",
-	"notes":["100 (Formation Points), 1 (Upgrade Points) 0.01 (Titan Points) (101.01)","Mini-Minigeddon: 4 Formation Points, 6 Upgrade points, 1 Titan Point (406.01)","Maxi-Minigeddon: 6 Formation Points, 8 Upgrade points, 1 Titan Point (608.01)","Small Battle: 8 Formation Points, 10 Upgrade points, 2 Titan Points (810.02)","Normal Battle: 10 Formation Points, 12 Upgrade points, 3 Titan Points (1012.03)", "Large Battle: 12 Formation Points, 14 Upgrade points, 4 Titan Points (1214.04)", "Very Large Battle: 14 Formation Points, 16 Upgrade points, 5 Titan Points (1416.05)"],
+	"version":"1.0.Beta <a href=\"../list-view/?content=list&race=SM&list=codexastartes\">Listview</a>",
+	"notes":["100 (Formation Points), 1 (Upgrade Points) 0.01 (Titan Points) (101.01)","Minigeddon: 4 Formation Points, 6 Upgrade points, 1 Titan Point (406.01)","Demigeddon: 6 Formation Points, 8 Upgrade points, 1 Titan Point (608.01)","Small Battle: 8 Formation Points, 10 Upgrade points, 2 Titan Points (810.02)","Normal Battle: 10 Formation Points, 12 Upgrade points, 3 Titan Points (1012.03)", "Large Battle: 12 Formation Points, 14 Upgrade points, 4 Titan Points (1214.04)", "Very Large Battle: 14 Formation Points, 16 Upgrade points, 5 Titan Points (1416.05)"],
 	"by":"EA-Ragnarok",
 
 	"sections":[
@@ -16,7 +16,7 @@
 		{"id":422, "name":"Land Raider Detachment", 					"pts":96, "upgrades":[115]},
 		{"id":423, "name":"Assault Detachment",		"units":"4 Legion Assault Squads",		"pts":100, "upgrades":[]},
 		{"id":424, "name":"Land Speeder Detachment",			"pts":96, "upgrades":[99,100,101,102]},
-		{"id":426, "name":"Sky-Hunter Detachment",	"units":"Lieutenant, 3 Sky-Hunter Squadrons",	"pts":99, "upgrades":[]},
+		{"id":426, "name":"Sky-Hunter Detachment",	"units":"3 Sky-Hunter Squadrons",	"pts":99, "upgrades":[]},
 		{"id":427, "name":"Outrider Detachment",	"units":"Lieutenant, 4 Legion Outriders",	"pts":99, "upgrades":[]},
 		{"id":428, "name":"Predator Detachment",				"pts":97, "upgrades":[75,76,77]},
 		{"id":429, "name":"Sicarian Detachment",				"pts":97, "upgrades":[80,81,82,83]},
@@ -63,9 +63,9 @@
 		{"id":466, "name": "Dire Wolf Heavy Scout Titan ",	"pts":102.01, "upgrades":[]},
 		{"id":467, "name": "Reaver Battle Titan", 	"pts":201.02, "upgrades":[240]},
 		{"id":468, "name": "Warlord Battle Titan", 	"pts":202.03, "upgrades":[240]},
-		{"id":469, "name": "Warlord-Sinister Psi-Titan",  "units":"Veteran Princeps, Sinistramanus Tenebrae", "pts":204.03, "upgrades":[]}
-
+		{"id":469, "name": "Warlord-Sinister Psi-Titan",  "units":"Veteran Princeps, Sinistramanus Tenebrae", "pts":205.03, "upgrades":[]}
 		]}
+
 	],
 	"upgrades":[
 	    {"id":1, "name":"Lieutenant",		"pts":0},
@@ -74,7 +74,7 @@
 		{"id":4, "name":"Librarian - Thaumaturgy", 		"pts":1},
 		{"id":5, "name":"Praetor",	"pts":2},
 		
-		{"id":10, "name":"2 Assault Squads","pts":2},
+		{"id":10, "name":"2 Legion Assault Squads","pts":2},
 
 		{"id":13, "name":"2 Rhinos","pts":0},
 		{"id":14, "name":"2 Support Rhinos Havoc","pts":0},
