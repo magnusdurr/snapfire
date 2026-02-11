@@ -1,13 +1,13 @@
 {
 	"id":"<a href=\"../list-view/?content=intro\">EA-H</a> Solar Auxilia, Calth High Guard",
 	"version":"1.0.Beta <a href=\"../list-view/?content=list&race=SM&list=codexastartes\">Listview</a>",
-	"notes":["100 (Formation Points), 1 (Upgrade Points) 0.01 (Titan Points) (101.01)","Minigeddon: 4 Formation Points, 6 Upgrade points, 1 Titan Point (406.01)","Demigeddon: 6 Formation Points, 8 Upgrade points, 1 Titan Point (608.01)","Small Battle: 8 Formation Points, 10 Upgrade points, 2 Titan Points (810.02)","Normal Battle: 10 Formation Points, 12 Upgrade points, 3 Titan Points (1012.03)", "Large Battle: 12 Formation Points, 14 Upgrade points, 4 Titan Points (1214.04)", "Very Large Battle: 14 Formation Points, 16 Upgrade points, 5 Titan Points (1416.05)"],
+	"notes":["100 (Formation Points), 1 (Upgrade Points) 0.01 (Titan Points) (101.01)","Minigeddon: 4 Formation Points, 6 Upgrade points, 1 Titan Point (406.01)","Demigeddon: 6 Formation Points, 8 Upgrade points, 1 Titan Point (608.01)","Small Battle: 8 Formation Points, 10 Upgrade points, 2 Titan Points (810.02)","Normal Battle: 10 Formation Points, 12 Upgrade points, 3 Titan Points (1012.03)", "Large Battle: 12 Formation Points, 14 Upgrade points, 4 Titan Points (1214.04)", "Very Large Battle: 14 Formation Points, 16 Upgrade points, 5 Titan Points (1416.05)", "In addition, the Calth High Guard gains a number of free upgrade points (equal to the number of titan points) that may only be used for purchasing Offboard Support Assets. In a normal sized battle, they thus gain 3 Upgrade Points for this purpose."],
 	"by":"EA-Ragnarok",
 
 	"sections":[
 		{"name":"CALTH HIGH GUARD CORE SECTIONS <br/> Must have a Section Command Tercio <br/> May not have more Malcador Companies or Light Sentinel Patrols than Command Tercios and Lasrifle Tercios", "formations":[
-		{"id":400, "name": "Section Command Tercio", "units":"Auxilia Legate Marshal, Auxilia Command Squad (Calth)",		"pts":101, "upgrades":[204,205,206,207,105,106,107,52,53,190,191]},
-		{"id":401, "name": "Auxilia Lasrifle Tercio", "units":"Auxilia Captain, Auxilia Command Squad (Calth)",		"pts":99, "upgrades":[204,205,206,207,105,106,107,52,53,190,191]},
+		{"id":400, "name": "Section Command Tercio", "units":"Auxilia Legate Marshal, Auxilia Command Squad",		"pts":101, "upgrades":[204,205,206,207,105,106,107,52,53,190,191]},
+		{"id":401, "name": "Auxilia Lasrifle Tercio", "units":"Auxilia Captain, Auxilia Command Squad",		"pts":99, "upgrades":[204,205,206,207,105,106,107,52,53,190,191]},
 		{"id":402, "name": "Auxilia Malcador Company",	"units":"Auxilia Adjutant",		"pts":103, "upgrades":[204,205,190,191,206]},
 		{"id":403, "name": "Auxilia Light Sentinel Patrol", "units":"Auxilia Adjutant", "pts":98, "upgrades":[190,191,207]}
 		]},
@@ -24,11 +24,11 @@
 
 		{"name":"CALTH HIGH GUARD ELITE SECTIONS <br/> May have one Elite Section for each two Core or Special Sections", "formations":[
 		{"id":440, "name": "Heavy Malcador Squadron",			"pts":101, "upgrades":[]},
-		{"id":441, "name": "Super-Heavy Tank Squadron",			"pts":97, "upgrades":[10]},
+		{"id":441, "name": "Super-Heavy Tank Squadron",		"units":"Auxilia Adjutant",	"pts":96, "upgrades":[190,191]},
 		{"id":442, "name": "Auxilia Siege Artillery Battery", "units":"3 Colossus Bombards",	"pts":101,  "upgrades":[]},
-		{"id":443, "name": "Auxilia Leman Russ Company", 	"units":"Auxilia Adjutant", "pts":195, "upgrades":[]},
-		{"id":444, "name": "Auxilia Heavy Sentinel Patrol", "pts":101, "upgrades":[10,190,191]},
-		{"id":445, "name": "Auxilia Dracosan Section", "units":"Auxilia Command Squad with an Auxilia Captain",	"pts":101,  "upgrades":[190,191]}
+		{"id":443, "name": "Auxilia Leman Russ Company", 	"units":"Auxilia Adjutant", "pts":195, "upgrades":[190,191,192,193]},
+		{"id":444, "name": "Auxilia Heavy Sentinel Patrol", "units":"Auxilia Adjutant",	 "pts":101, "upgrades":[10,190,191]},
+		{"id":445, "name": "Auxilia Dracosan Section", "units":"Auxilia Command Squad with an Auxilia Captain",	"pts":100,  "upgrades":[125,126,190,191]}
 		]},
 
 		{"name":"IMPERIAL NAVY SQUADRONS <br/> May have one Imperial Navy Squadron for each two Core or Special Sections", "formations":[
@@ -38,11 +38,13 @@
 		]},
 
 		{"name":"CALTH HIGH GUARD OFFBOARD SUPPORT ASSETS <br/> May have one Offboard Support Asset for each Core Section", "formations":[
-		{"id":480, "name": "Deathstrike Warp Missile Attack", "pts":1, "upgrades":[]},
-		{"id":481, "name": "Deathstrike Plasma Missile Attack", "pts":1, "upgrades":[]},
-		{"id":482, "name": "Artillery Barrage Strike",	"pts":1, "upgrades":[]},
-		{"id":483, "name": "Artillery Phospex Strike",	"pts":1, "upgrades":[]},
-		{"id":484, "name": "2x Artillery Blind Strike", "pts":1, "upgrades":[]}
+		{"id":480, "name": "Deathstrike Godspear Missile Attack", "pts":1, "upgrades":[]},
+		{"id":481, "name": "Deathstrike Warp Missile Attack", "pts":1, "upgrades":[]},
+		{"id":482, "name": "Deathstrike Plasma Missile Attack", "pts":1, "upgrades":[]},
+		{"id":483, "name": "Artillery Barrage Strike",	"pts":1, "upgrades":[]},
+		{"id":484, "name": "Artillery Phospex Strike",	"pts":1, "upgrades":[]},
+		{"id":485, "name": "2x Artillery Blind Strike", "pts":1, "upgrades":[]},
+		{"id":486, "name": "Clade Vindicare Assassin", "pts":1, "upgrades":[]}
 		]},
 
 		{"name":"LEGIONES ASTARTES DETACHMENTS<br/> May have one Legiones Astartes Detachment per two Solar Auxilia Core Sections", "formations":[
@@ -53,11 +55,13 @@
 		]},
 
 		{"name":"COLLEGIA TITANICA BANNERS", "formations":[
-		{"id":464, "name": "Warhound Scout Titan",	"pts":100.11, "upgrades":[]},
-		{"id":465, "name": "Warhound Scout Titan Pack",	"pts":102.21, "upgrades":[]},
-		{"id":467, "name": "Reaver Battle Titan", 	"pts":200.21, "upgrades":[240]},
-		{"id":468, "name": "Warlord Battle Titan", 	"pts":201.31, "upgrades":[240]},
-		{"id":469, "name": "Warmaster Heavy Battle Titan", 	"pts":302.41, "upgrades":[]}
+		{"id":464, "name": "Warhound Scout Titan",	"pts":101.01, "upgrades":[]},
+		{"id":465, "name": "Warhound Scout Titan Pack",	"pts":103.02, "upgrades":[]},
+		{"id":466, "name": "Dire Wolf Heavy Scout Titan ",	"pts":102.01, "upgrades":[]},
+		{"id":470, "name": "Warbringer Nemesis Battle Titan", 	"pts":201.02, "upgrades":[240]},
+		{"id":467, "name": "Reaver Battle Titan", 	"pts":201.02, "upgrades":[240]},
+		{"id":468, "name": "Warlord Battle Titan", 	"pts":202.03, "upgrades":[240]},
+		{"id":469, "name": "Warmaster Heavy Battle Titan", 	"pts":303.04, "upgrades":[]}
 		]}
 	],
 	"upgrades":[
@@ -80,6 +84,9 @@
 		{"id":51, "name":"3 Termite Assault Drills","pts":2},
 		{"id":52, "name":"4 Termite Assault Drills","pts":2},
 		{"id":53, "name":"6 Termite Assault Drills","pts":3},
+
+		{"id":60, "name":"3 Auxilia Lasrifle Squads", "pts":0},
+		{"id":61, "name":"3 Auxilia Flamer Squads", "pts":0},
 
 		{"id":90, "name":"4 Auxilia Rapier Laser Destructors","pts":0},
 		{"id":91, "name":"4 Auxilia Rapier Quad Launchers","pts":1},
@@ -110,7 +117,7 @@
 		{"id":112, "name":"Shadowsword","pts":4},
 		{"id":113, "name":"Stormblade","pts":3},
 		{"id":114, "name":"Stormsword","pts":3},
-		{"id":115, "name":"Stormhammer","pts":4},
+		{"id":115, "name":"Stormhammer","pts":3},
 
 		{"id":116, "name":"Dracosan - Lascannon","pts":0},
 		{"id":117, "name":"2 Dracosan - Demolisher","pts":3},
@@ -150,6 +157,8 @@
 
 		{"id":190, "name":"2 Cyclops Demolitor", "pts":1},
 		{"id":191, "name":"2 Cyclops Incinerator", "pts":1},
+		{"id":192, "name":"4 Cyclops Demolitor", "pts":2},
+		{"id":193, "name":"4 Cyclops Incinerator", "pts":2},
 
 		{"id":200, "name":"7 Auxilia Lasrifle Squads", "pts":0},
 		{"id":201, "name":"3 Auxilia Lasrifle Squads, 4 Auxilia Flamer Squads", "pts":0},
@@ -231,7 +240,7 @@
 		{"id":319, "name":"Titan Power Fist",	"pts":0},
 		{"id":320, "name":"Titan Chainfist",	"pts":0},
 
-		{"id":321, "name":"Titan Melta Cannon",	"pts":1},
+		{"id":321, "name":"Heavy Melta Cannon",	"pts":1},
 		{"id":322, "name":"Plasma Destructor",	"pts":1},
 
 		{"id":323, "name":"Vulcano Cannon",	"pts":2},
@@ -268,8 +277,8 @@
         {"max":1, "name":"Special Section", "from":[420,421,422,423,424,425,426], "forEach":[400,401,402,403], "name2":"Core Section"},
 		{"max":0.5, "name":"Elite Section", "from":[440,441,442,443,444,445,446], "forEach":[400,401,402,403,420,421,422,423,424,425,426], "name2":"Two Core or Special Sections"},
 		{"max":0.5, "name":"Navy Squadrons", "from":[460,461,462], "forEach":[400,401,402,403,420,421,422,423,424,425,426], "name2":"Two Core or Special Sections"},
-		{"max":1, "name":"Offboard Support Asset", "from":[480,481,482,483,484], "forEach":[400,401,402,403], "name2":"Core Section"},
-		{"max":0.5, "name":"Legiones Astartes Detachments", "from":[500,501,502,503], "forEach":[400,401,402,403], "name2":"One Legiones Astartes Detachment per two Solar Auxilia Core Sections"}
+		{"max":1, "name":"Offboard Support Asset", "from":[480,481,482,483,484,485,486], "forEach":[400,401,402,403], "name2":"Core Section"},
+		{"max":0.5, "name":"Legiones Astartes Detachments", "from":[500,501,502,503], "forEach":[400,401,402,403], "name2":"Two Core Sections"}
 	],
 	"upgradeConstraints":[
 
@@ -322,12 +331,19 @@
 
 		{"min":1, "max":1, "from":[110,111,112,113,114,115], "appliesTo":[441]},
 
+		{"min":0, "max":1, "from":[190,191], "appliesTo":[441]},
+
 		{"min":8, "max":8, "from":[150,151,152,153,154,155,156], "appliesTo":[443]},
+
+		{"min":0, "max":1, "from":[190,191,192,193], "appliesTo":[443]},
 
 		{"min":1, "max":1, "from":[140,141,142], "appliesTo":[444]},
 
 		{"min":1, "max":1, "from":[116,117], "appliesTo":[445]},
-		{"min":0, "max":1, "from":[190,191], "appliesTo":[445]},
+
+		{"min":0, "max":1, "from":[125,126,190,191], "appliesTo":[445]},
+
+		{"min":1, "max":1, "from":[60,61], "appliesTo":[445]},
 
 
 		{"min":2, "max":3, "from":[120], "appliesTo":[460]},
@@ -393,7 +409,11 @@
 
 		{"min":1, "max":1, "from":[240], "appliesTo":[469]},
 
-		{"min":1, "max":1, "from":[350,351,352,353,354,355], "appliesTo":[469]}
+		{"min":1, "max":1, "from":[350,351,352,353,354,355], "appliesTo":[469]},
+
+		{"min":1, "max":1, "from":[336,342], "appliesTo":[470]},
+		{"min":2, "max":2, "from":[317,318,321,322,323], "appliesTo":[470]},
+		{"min":0, "max":1, "from":[321,322,323], "appliesTo":[470]}
 
 
 

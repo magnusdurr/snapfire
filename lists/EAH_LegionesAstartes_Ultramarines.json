@@ -61,6 +61,7 @@
 		{"id":464, "name": "Warhound Scout Titan",	"pts":101.01, "upgrades":[]},
 		{"id":465, "name": "Warhound Scout Titan Pack",	"pts":103.02, "upgrades":[]},
 		{"id":466, "name": "Dire Wolf Heavy Scout Titan ",	"pts":102.01, "upgrades":[]},
+		{"id":470, "name": "Warbringer Nemesis Battle Titan", 	"pts":201.02, "upgrades":[240]},
 		{"id":467, "name": "Reaver Battle Titan", 	"pts":201.02, "upgrades":[240]},
 		{"id":468, "name": "Warlord Battle Titan", 	"pts":202.03, "upgrades":[240]},
 		{"id":469, "name": "Warlord-Sinister Psi-Titan",  "units":"Veteran Princeps, Sinistramanus Tenebrae", "pts":205.03, "upgrades":[]}
@@ -393,7 +394,11 @@
 		{"min":0, "max":1, "from":[340], "appliesTo":[469]},
 		{"min":0, "max":1, "from":[341], "appliesTo":[469]},
 		{"min":0, "max":1, "from":[342], "appliesTo":[469]},
-		{"min":0, "max":1, "from":[338,339,340,341,342], "appliesTo":[469]}
+		{"min":0, "max":1, "from":[338,339,340,341,342], "appliesTo":[469]},
+
+		{"min":1, "max":1, "from":[336,342], "appliesTo":[470]},
+		{"min":2, "max":2, "from":[317,318,321,322,323], "appliesTo":[470]},
+		{"min":0, "max":1, "from":[321,322,323], "appliesTo":[470]}
 
 
 
