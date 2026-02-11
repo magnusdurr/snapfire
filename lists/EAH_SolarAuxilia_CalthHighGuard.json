@@ -6,8 +6,8 @@
 
 	"sections":[
 		{"name":"CALTH HIGH GUARD CORE SECTIONS <br/> Must have a Section Command Tercio <br/> May not have more Malcador Companies or Light Sentinel Patrols than Command Tercios and Lasrifle Tercios", "formations":[
-		{"id":400, "name": "Section Command Tercio", "units":"Auxilia Legate Marshal, Auxilia Command Squad",		"pts":101, "upgrades":[204,205,206,207,105,106,107,52,53,190,191]},
-		{"id":401, "name": "Auxilia Lasrifle Tercio", "units":"Auxilia Captain, Auxilia Command Squad",		"pts":99, "upgrades":[204,205,206,207,105,106,107,52,53,190,191]},
+		{"id":400, "name": "Section Command Tercio", "units":"Auxilia Legate Marshal, Auxilia Command Squad",		"pts":101, "upgrades":[204,205,206,207,105,106,107,52,190,191]},
+		{"id":401, "name": "Auxilia Lasrifle Tercio", "units":"Auxilia Captain, Auxilia Command Squad",		"pts":99, "upgrades":[204,205,206,207,105,106,107,52,190,191]},
 		{"id":402, "name": "Auxilia Malcador Company",	"units":"Auxilia Adjutant",		"pts":103, "upgrades":[204,205,190,191,206]},
 		{"id":403, "name": "Auxilia Light Sentinel Patrol", "units":"Auxilia Adjutant", "pts":98, "upgrades":[190,191,207]}
 		]},
@@ -48,10 +48,7 @@
 		]},
 
 		{"name":"LEGIONES ASTARTES DETACHMENTS<br/> May have one Legiones Astartes Detachment per two Solar Auxilia Core Sections", "formations":[
-		{"id":500, "name":"Tactical Detachment", "units":"Lieutenant",	"pts":100, "upgrades":[25,26,27]},
-		{"id":501, "name":"Outrider Detachment",	"units":"Lieutenant, 4 Legion Outriders",	"pts":99, "upgrades":[]},
-		{"id":502, "name":"Land Speeder Detachment",			"pts":96, "upgrades":[30,31,32,33]},
-		{"id":503, "name":"Sky-Hunter Detachment",	"units":"3 Sky-Hunter Squadrons",	"pts":99, "upgrades":[]}
+		{"id":500, "name":"Tactical Detachment", "units":"Lieutenant",	"pts":100, "upgrades":[25,26,27]}
 		]},
 
 		{"name":"COLLEGIA TITANICA BANNERS", "formations":[
@@ -83,7 +80,6 @@
 		{"id":50, "name":"2 Termite Assault Drills","pts":1},
 		{"id":51, "name":"3 Termite Assault Drills","pts":2},
 		{"id":52, "name":"4 Termite Assault Drills","pts":2},
-		{"id":53, "name":"6 Termite Assault Drills","pts":3},
 
 		{"id":60, "name":"3 Auxilia Lasrifle Squads", "pts":0},
 		{"id":61, "name":"3 Auxilia Flamer Squads", "pts":0},
@@ -278,7 +274,7 @@
 		{"max":0.5, "name":"Elite Section", "from":[440,441,442,443,444,445,446], "forEach":[400,401,402,403,420,421,422,423,424,425,426], "name2":"Two Core or Special Sections"},
 		{"max":0.5, "name":"Navy Squadrons", "from":[460,461,462], "forEach":[400,401,402,403,420,421,422,423,424,425,426], "name2":"Two Core or Special Sections"},
 		{"max":1, "name":"Offboard Support Asset", "from":[480,481,482,483,484,485,486], "forEach":[400,401,402,403], "name2":"Core Section"},
-		{"max":0.5, "name":"Legiones Astartes Detachments", "from":[500,501,502,503], "forEach":[400,401,402,403], "name2":"Two Core Sections"}
+		{"max":0.5, "name":"Legiones Astartes Detachments", "from":[500], "forEach":[400,401,402,403], "name2":"Two Core Sections"}
 	],
 	"upgradeConstraints":[
 
@@ -289,7 +285,9 @@
 
 		{"min":0, "max":1, "from":[204,205], "appliesTo":[400,401]},
 
-		{"min":0, "max":1, "from":[206,207,105,106,107,52,53,190,191], "appliesTo":[400,401]},
+		{"min":0, "max":1, "from":[206,207,105,106,107,52,190,191], "appliesTo":[400,401]},
+
+		{"min":0, "max":1, "from":[204,205,52,202], "appliesTo":[400,401]},
 		
 		{"min":1, "max":1, "from":[102,103,104], "appliesTo":[402]},
 

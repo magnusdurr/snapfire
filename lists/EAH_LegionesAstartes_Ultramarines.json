@@ -48,9 +48,10 @@
 		{"name":"ULTRAMARINES OFFBOARD SUPPORT ASSETS <br/> May have one Offboard Support Asset for each Core Detachment", "formations":[
 		{"id":480, "name": "Drop Pods", "pts":2, "upgrades":[]},
 		{"id":481, "name": "Orbital Pin-Point Attack", "pts":1, "upgrades":[]},
-		{"id":482, "name": "Orbital Barrage", "pts":1, "upgrades":[]},
-		{"id":483, "name": "Artillery Barrage Strike",	"pts":1, "upgrades":[]},
-		{"id":484, "name": "2x Artillery Blind Strike", "pts":1, "upgrades":[]}
+		{"id":482, "name": "Orbital Macro Barrage", "pts":1, "upgrades":[]},
+		{"id":483, "name": "Orbital Plasma Barrage", "pts":1, "upgrades":[]},
+		{"id":484, "name": "Artillery Barrage Strike",	"pts":1, "upgrades":[]},
+		{"id":485, "name": "2x Artillery Blind Strike", "pts":1, "upgrades":[]}
 		]},
 
 		{"name":"SOLAR AUXILIA ALLIED SECTIONS <br/> May have one Solar Auxilia Section per two Core Detachments", "formations":[
@@ -274,7 +275,7 @@
         {"max":1, "name":"Special Detachments", "from":[420,421,422,423,424,425,426,427,428,429,430], "forEach":[400,401,402], "name2":"Core Detachment"},
 		{"max":0.5, "name":"Elite Detachments", "from":[440,441,442,443,444,445,446,447,448,449], "forEach":[400,401,402,420,421,422,423,424,425,426,427,428,429,430], "name2":"Two Core or Special Detachments"},
 		{"max":0.5, "name":"Navy Detachments", "from":[460,461,462,463], "forEach":[400,401,402,420,421,422,423,424,425,426,427,428,429,430], "name2":"Two Core or Special Detachments"},
-		{"max":1, "name":"Offboard Support Asset", "from":[480,481,482,483,484], "forEach":[400,401,402], "name2":"Core Detachment"},
+		{"max":1, "name":"Offboard Support Asset", "from":[480,481,482,483,484,485], "forEach":[400,401,402], "name2":"Core Detachment"},
 		{"max":0.5, "name":"Solar Auxilia Allied Tercio", "from":[500], "forEach":[400,401,402], "name2":"Two Core Detachments"}
 	],
 	"upgradeConstraints":[
