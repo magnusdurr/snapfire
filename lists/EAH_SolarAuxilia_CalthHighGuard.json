@@ -33,7 +33,7 @@
 
 		{"name":"IMPERIAL NAVY SQUADRONS <br/> May have one Imperial Navy Squadron for each two Core or Special Sections", "formations":[
 		{"id":460, "name": "Thunderbolt Squadron",   "pts":96, "upgrades":[120]},
-		{"id":461, "name": "Lightning Squadron", "units":"3 Lightning Interceptors",	"pts":97, "upgrades":[]},
+		{"id":461, "name": "Lightning Squadron", 	"pts":95, "upgrades":[119]},
 		{"id":462, "name": "Marauder Squadron",	"pts":100, "upgrades":[]}
 		]},
 
@@ -48,7 +48,7 @@
 		]},
 
 		{"name":"LEGIONES ASTARTES DETACHMENTS<br/> May have one Legiones Astartes Detachment per two Solar Auxilia Core Sections", "formations":[
-		{"id":500, "name":"Tactical Detachment", "units":"Lieutenant",	"pts":100, "upgrades":[25,26,27]}
+		{"id":500, "name":"Tactical Detachment", "pts":99, "upgrades":[25,26,27]}
 		]},
 
 		{"name":"COLLEGIA TITANICA BANNERS", "formations":[
@@ -68,9 +68,9 @@
 		{"id":21, "name":"2 Legion Tactical Squads, 2 Legion Support Squad - Plasma","pts":0},
 		{"id":22, "name":"2 Legion Tactical Squads, 2 Heavy Support Legionaries - Missile Launcher","pts":1},
 
-		{"id":25, "name":"2 Rhinos","pts":0},
-		{"id":26, "name":"2 Support Rhinos Havoc","pts":0},
-		{"id":27, "name":"2 Support Rhinos Melta","pts":0},
+		{"id":25, "name":"2 Rhinos","pts":1},
+		{"id":26, "name":"2 Support Rhinos Havoc","pts":1},
+		{"id":27, "name":"2 Support Rhinos Melta","pts":1},
 
 		{"id":30, "name":"Land Speeder - Melta","pts":1},
 		{"id":31, "name":"Land Speeder - Plasma","pts":1},
@@ -118,6 +118,7 @@
 		{"id":116, "name":"Dracosan - Lascannon","pts":0},
 		{"id":117, "name":"2 Dracosan - Demolisher","pts":3},
 
+		{"id":119, "name":"Lightning Interceptor","pts":1},
 		{"id":120, "name":"Thunderbolt Fighter","pts":1},
 
 		{"id":121, "name":"2 Marauder Bombers","pts":0},
@@ -274,6 +275,7 @@
 		{"max":0.5, "name":"Elite Section", "from":[440,441,442,443,444,445,446], "forEach":[400,401,402,403,420,421,422,423,424,425,426], "name2":"Two Core or Special Sections"},
 		{"max":0.5, "name":"Navy Squadrons", "from":[460,461,462], "forEach":[400,401,402,403,420,421,422,423,424,425,426], "name2":"Two Core or Special Sections"},
 		{"max":1, "name":"Offboard Support Asset", "from":[480,481,482,483,484,485,486], "forEach":[400,401,402,403], "name2":"Core Section"},
+		{"max":1, "name":"Clade Vindicare Assassin", "from":[486], "perArmy":true},
 		{"max":0.5, "name":"Legiones Astartes Detachments", "from":[500], "forEach":[400,401,402,403], "name2":"Two Core Sections"}
 	],
 	"upgradeConstraints":[
@@ -345,6 +347,8 @@
 
 
 		{"min":2, "max":3, "from":[120], "appliesTo":[460]},
+
+		{"min":2, "max":3, "from":[119], "appliesTo":[461]},
 
 		{"min":1, "max":1, "from":[121,122,123,124], "appliesTo":[462]},
 
