@@ -55,7 +55,7 @@
 		]},
 
 		{"name":"SOLAR AUXILIA ALLIED SECTIONS <br/> May have one Solar Auxilia Section per two Core Detachments", "formations":[
-		{"id":500, "name": "Auxilia Lasrifle Tercio", 	"pts":98, "upgrades":[]}
+		{"id":500, "name": "Auxilia Lasrifle Tercio", "units":"Auxilia Adjutant", 	"pts":98, "upgrades":[]}
 		]},
 
 		{"name":"COLLEGIA TITANICA BANNERS", "formations":[

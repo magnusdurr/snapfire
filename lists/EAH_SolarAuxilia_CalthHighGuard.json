@@ -26,7 +26,7 @@
 		{"id":440, "name": "Heavy Malcador Squadron",			"pts":101, "upgrades":[]},
 		{"id":441, "name": "Super-Heavy Tank Squadron",		"units":"Auxilia Adjutant",	"pts":96, "upgrades":[190,191]},
 		{"id":442, "name": "Auxilia Siege Artillery Battery", "units":"3 Colossus Bombards",	"pts":101,  "upgrades":[]},
-		{"id":443, "name": "Auxilia Leman Russ Company", 	"units":"Auxilia Adjutant", "pts":195, "upgrades":[190,191,192,193]},
+		{"id":443, "name": "Auxilia Leman Russ Company", 	"units":"Auxilia Adjutant", "pts":193, "upgrades":[190,191,192,193]},
 		{"id":444, "name": "Auxilia Heavy Sentinel Patrol", "units":"Auxilia Adjutant",	 "pts":101, "upgrades":[10,190,191]},
 		{"id":445, "name": "Auxilia Dracosan Section", "units":"Auxilia Command Squad with an Auxilia Captain",	"pts":100,  "upgrades":[125,126,190,191]}
 		]},
